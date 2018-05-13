@@ -35,9 +35,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="sdk\scripts\VSS.SDK.js" />
     <Content Include="sdk\scripts\VSS.SDK.min.js" />
   </ItemGroup>
