@@ -11,10 +11,10 @@
         }
     ],
     "icons": {
-        "default": "images/Icon_128x128.png"
+        "default": "images/Icon_twitter_avatar_128x128.png"
     },
     "categories": [
-        "Plan and track"
+        "Collaborate"
     ],
     "tags": [
         "dashboard",
@@ -36,7 +36,55 @@
                 "uri": "Widget.html",
                 "supportedSizes": [
                     {
+                        "rowSpan": 2,
+                        "columnSpan": 3
+                    },
+                    {
                         "rowSpan": 1,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 4
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 4
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 4,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 4,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 4,
                         "columnSpan": 3
                     }
                 ],

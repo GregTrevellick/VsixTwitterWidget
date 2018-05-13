@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@RadioTFS", "@RadioTFS\@RadioTFS.csproj", "{1777D40F-B871-4786-A07A-EBEF1DD6A890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Dev_humor", "@Dev_humor\@Dev_humor.csproj", "{1777D40F-B871-4786-A07A-EBEF1DD6A890}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Vsts", "@Vsts\@Vsts.csproj", "{20EA3300-5D40-4A5C-9717-D67017751B23}"
 EndProject

@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>URL</StartAction>
-    <StartURL>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\%40RadioTFS\Widget.html</StartURL>
+    <StartURL>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\%40Dev_humor\Widget.html</StartURL>
   </PropertyGroup>
 </Project>

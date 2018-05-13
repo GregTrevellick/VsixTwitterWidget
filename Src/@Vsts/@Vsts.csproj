@@ -35,19 +35,15 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="overview.md" />
+    <None Include="Overview.md" />
     <None Include="ReadMe.md" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\CatalogIcon.png" />
-    <Content Include="images\Icon_128x128.png" />
+    <Content Include="images\Icon_twitter_avatar_128x128.jpg" />
     <Content Include="images\PreviewImage.png" />
     <Content Include="images\screen1.png" />
-    <Content Include="images\zDownload.png" />
-    <Content Include="images\zIcon_128x128b.png" />
-    <Content Include="images\zscreen2.png" />
-    <Content Include="images\zTwitter_Logo_Blue.png" />
     <Content Include="Widget.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
