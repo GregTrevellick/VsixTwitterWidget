@@ -35,7 +35,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="overview.md" />
     <None Include="ReadMe.md" />
     <None Include="vss-extension.json" />
