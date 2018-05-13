@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@RadioTFS", "@RadioTFS\@RadioTFS.csproj", "{1777D40F-B871-4786-A07A-EBEF1DD6A890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{D81EA319-5348-4036-9BFB-B4EDB49D8A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Vsts", "@Vsts\@Vsts.csproj", "{20EA3300-5D40-4A5C-9717-D67017751B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81EA319-5348-4036-9BFB-B4EDB49D8A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81EA319-5348-4036-9BFB-B4EDB49D8A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81EA319-5348-4036-9BFB-B4EDB49D8A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81EA319-5348-4036-9BFB-B4EDB49D8A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EA3300-5D40-4A5C-9717-D67017751B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EA3300-5D40-4A5C-9717-D67017751B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EA3300-5D40-4A5C-9717-D67017751B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EA3300-5D40-4A5C-9717-D67017751B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94F752ED-6F19-44EB-8746-B70DA09EB6DF}
+	EndGlobalSection
+EndGlobal

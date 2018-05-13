@@ -1,0 +1,99 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-extensions-myExtensions",
+    "version": "1.0.5",
+    "name": "@Vsts Tweets",
+    "description": "Display @Vsts tweets in your project dashboard",
+    "publisher": "GregTrevellick",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "images/Icon_128x128.png"
+    },
+    "categories": [
+        "Plan and track"
+    ],
+    "tags": [
+        "dashboard",
+        "twitter",
+        "widget"
+    ],
+    "contributions": [
+        {
+            "id": "Tweet_@Vsts",
+            "type": "ms.vss-dashboards-web.widget",
+            "targets": [
+                "ms.vss-dashboards-web.widget-catalog"
+            ],
+            "properties": {
+                "name": "VstsTweets",
+                "description": "A dashboard widget containing the latest tweets from @Vsts",
+                "catalogIconUrl:": "images/CatalogIcon.png",
+                "previewImageUrl": "images/PreviewImage.png",
+                "uri": "Widget.html",
+                "supportedSizes": [
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 3
+                    }
+                ],
+                "supportedScopes": [ "project_team" ]
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "Widget.html",
+            "addressable": true
+        },
+        {
+            "path": "../sdk/scripts",
+            "addressable": true
+        },
+        {
+            "path": "images",
+            "addressable": true
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.TweetsVSTS"
+        },
+        "learn": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/wiki"
+        },
+        "support": {
+            "uri": "https://twitter.com/GregTrevellick"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+    },
+    "branding": {
+        "color": "rgb(1, 122, 215)",
+        "theme": "dark"
+    },
+    "screenshots": [
+        {
+            "path": "images/screen1.png"
+        }
+    ]
+}

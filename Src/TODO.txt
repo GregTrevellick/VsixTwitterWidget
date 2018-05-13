@@ -1,0 +1,31 @@
+publish & install vsts extension
+================================
+Cmd
+cd  C:\Users\gtrev\Source\Repos\VSTS_Tweets_Widget\Src
+[one-off] npm i -g tfx-cli
+tfx extension create --manifest-globs vss-extension.json   (n.b. auto-increments version nbr in vss-extension.json)
+https://marketplace.visualstudio.com/manage/publishers/gregtrevellick
++New > VSTS
+Share > GregTrevellick > Enter
+VSTS home > Cog > Extensions > Click the extension > Launches MP site > Get it free > Install
+Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
+
+
+
+
+
+
+
+ "badges": [
+       {
+           "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
+           "uri": "https://travis.ci/fabrikam-fiber-inc/myextension.svg?branch=master",
+           "description": "TravisCI build for the project"
+       },
+       {
+           "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
+           "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
+           "description": "AppVeyor build for the project"
+       }
+   ],
+ 

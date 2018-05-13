@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@dev_humor Tweets</title>
+    <script src="../sdk/scripts/VSS.SDK.min.js"></script>
+    <body>
+        <script type="text/javascript">
+            VSS.init({
+                explicitNotifyLoaded: true,
+                usePlatformStyles: true
+            });
+            VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
+                WidgetHelpers.IncludeWidgetStyles();
+                //WidgetHelpers.IncludeWidgetConfigurationStyles();
+                VSS.register("Tweets_dev_humor", function () {
+                    return {
+                        load: function (widgetSettings) {
+                            //var $title = $('h2.title');
+                            //$title.text('');
+                            return WidgetHelpers.WidgetStatusHelper.Success();
+                        }
+                    }
+                });
+                VSS.notifyLoadSucceeded();
+            });
+        </script>
+
+        <div class="widget">
+            <!--<h2 class="title">Widget title</h2>-->
+            <!--<div class="description">The widget description is used to describe the widget. It makes sense even when read outside of the widget context.</div>-->
+            <p>
+                <a class="twitter-timeline" data-width="500" data-height="200" href="https://twitter.com/dev_humor?ref_src=twsrc%5Etfw"> 
+                    <!-- Tweets by Abracadabra -->
+                </a>
+            </p>
+        </div>
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </body>
+</html>
