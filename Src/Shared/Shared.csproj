@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="node_modules\**" />
+    <EmbeddedResource Remove="node_modules\**" />
+    <None Remove="node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="zClass1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Gulpfile.js" />
+    <None Remove="npm-debug.log" />
+    <None Remove="sdk\scripts\VSS.SDK.js" />
+    <None Remove="sdk\scripts\VSS.SDK.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Gulpfile.js" />
+    <Content Include="sdk\scripts\VSS.SDK.js" />
+    <Content Include="sdk\scripts\VSS.SDK.min.js" />
+  </ItemGroup>
+
+</Project>

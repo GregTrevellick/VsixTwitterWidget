@@ -50,7 +50,7 @@
             "addressable": true
         },
         {
-            "path": "../Common/sdk/scripts",
+            "path": "../Shared/sdk/scripts",
             "addressable": true
         },
         {
