@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-myExtensions",
+    "id": "vsts-extensions-tweets-vsts",
     "version": "1.0.5",
     "name": "@Vsts Tweets",
     "description": "Display @Vsts tweets in your project dashboard",
@@ -98,7 +98,7 @@
             "addressable": true
         },
         {
-            "path": "../Shared/sdk/scripts",
+            "path": "scripts",
             "addressable": true
         },
         {
