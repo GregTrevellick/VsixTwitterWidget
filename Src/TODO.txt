@@ -1,18 +1,9 @@
 at build time xcopy licence.md & vss.sdk.js
 
-@thedailywtf
-@stackoverflow
-@codeproject 
-
-
-
-
-
-
-
 @azure
 @ch9
 @Code
+@codeproject 
 @DailyDotNetTips
 @Dev_humor
 @DevOpsAtMSFT
@@ -28,6 +19,8 @@ at build time xcopy licence.md & vss.sdk.js
 @OctopusDeploy
 @radiotfs
 @reddit_tech
+@stackoverflow
+@thedailywtf
 @visualstudio
 @VSMdev
 @vsts
