@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.0.11",
+    "version": "1.0.15",
     "name": "@Vsts",
     "description": "Display tweets in your project dashboard",
     "publisher": "GregTrevellick",
@@ -38,54 +38,6 @@
                     {
                         "rowSpan": 2,
                         "columnSpan": 3
-                    },
-                    {
-                        "rowSpan": 1,
-                        "columnSpan": 2
-                    },
-                    {
-                        "rowSpan": 1,
-                        "columnSpan": 3
-                    },
-                    {
-                        "rowSpan": 1,
-                        "columnSpan": 4
-                    },
-                    {
-                        "rowSpan": 2,
-                        "columnSpan": 1
-                    },
-                    {
-                        "rowSpan": 2,
-                        "columnSpan": 2
-                    },
-                    {
-                        "rowSpan": 2,
-                        "columnSpan": 4
-                    },
-                    {
-                        "rowSpan": 3,
-                        "columnSpan": 1
-                    },
-                    {
-                        "rowSpan": 3,
-                        "columnSpan": 2
-                    },
-                    {
-                        "rowSpan": 3,
-                        "columnSpan": 3
-                    },
-                    {
-                        "rowSpan": 4,
-                        "columnSpan": 1
-                    },
-                    {
-                        "rowSpan": 4,
-                        "columnSpan": 2
-                    },
-                    {
-                        "rowSpan": 4,
-                        "columnSpan": 3
                     }
                 ],
                 "supportedScopes": [ "project_team" ]
@@ -108,7 +60,7 @@
     ],
     "content": {
         "details": {
-            "path": "overview.md"
+            "path": "Overview.md"
         },
         "license": {
             "path": "LICENSE.md"
@@ -116,24 +68,18 @@
     },
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.TweetsVSTS"
-        },
-        "learn": {
-            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/wiki"
-        },
-        "support": {
-            "uri": "https://twitter.com/GregTrevellick"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts"
         },
         "repository": {
-            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
         },
         "issues": {
-            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/issues"
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
         }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+        "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
     },
     "branding": {
         "color": "rgb(1, 122, 215)",

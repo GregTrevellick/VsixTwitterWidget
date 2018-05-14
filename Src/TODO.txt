@@ -69,6 +69,35 @@ Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
            "description": "AppVeyor build for the project"
        }
    ],
+
+
+
+       "content": {
+        "details": {
+            "path": "Overview.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.TweetsVSTS"
+        },
+        "learn": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/wiki"
+        },
+        "support": {
+            "uri": "https://twitter.com/GregTrevellick"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/issues"
+        }
+    },
+
  
 
 
