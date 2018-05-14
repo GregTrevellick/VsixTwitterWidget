@@ -2,8 +2,8 @@
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
     "version": "1.0.11",
-    "name": "@dev_humor Tweets",
-    "description": "Display @dev_humor tweets in your project dashboard",
+    "name": "@dev_humor",
+    "description": "Display tweets in your project dashboard",
     "publisher": "GregTrevellick",
     "targets": [
         {
