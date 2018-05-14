@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "name": "@Vsts",
     "description": "Display tweets in your project dashboard",
     "publisher": "GregTrevellick",
@@ -17,8 +17,11 @@
         "Collaborate"
     ],
     "tags": [
+        "@vsts",
         "dashboard",
+        "tweet",
         "twitter",
+        "vsts",
         "widget"
     ],
     "contributions": [

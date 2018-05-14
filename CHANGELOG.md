@@ -6,7 +6,7 @@ These are the incremental changes to each version that has been released on the 
 
 Individual releases are tagged as such in GitHub.
 
-## 1.0.15
+## 1.0.16
 **2018-05-14**
 - [x] Initial release containing @vsts tweets
 
