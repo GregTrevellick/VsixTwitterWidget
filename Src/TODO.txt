@@ -1,3 +1,15 @@
+at build time xcopy licence.md & vss.sdk.js
+
+@thedailywtf
+@stackoverflow
+@codeproject 
+
+
+
+
+
+
+
 @azure
 @ch9
 @Code

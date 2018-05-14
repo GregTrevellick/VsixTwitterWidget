@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>@dev_humor Tweets</title>
-    <script src="../Shared/sdk/scripts/VSS.SDK.min.js"></script>
+    <script src="scripts/VSS.SDK.js"></script>
     <body>
         <script type="text/javascript">
             VSS.init({
@@ -12,7 +12,7 @@
             VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
                 WidgetHelpers.IncludeWidgetStyles();
                 //WidgetHelpers.IncludeWidgetConfigurationStyles();
-                VSS.register("Tweets_dev_humor", function () {
+                VSS.register("VSSRegisterName_Tweet@devhumor", function () {
                     return {
                         load: function (widgetSettings) {
                             //var $title = $('h2.title');

@@ -41,13 +41,11 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Shared\sdk\scripts\VSS.SDK.js">
-      <Link>scripts\VSS.SDK.js</Link>
-    </Content>
     <Content Include="images\CatalogIcon.png" />
     <Content Include="images\Icon_twitter_avatar_128x128.png" />
     <Content Include="images\PreviewImage.png" />
     <Content Include="images\screen1.png" />
+    <Content Include="scripts\VSS.SDK.js" />
     <Content Include="Widget.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

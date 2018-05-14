@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.0.5",
+    "version": "1.0.11",
     "name": "@Vsts Tweets",
     "description": "Display @Vsts tweets in your project dashboard",
     "publisher": "GregTrevellick",
@@ -23,7 +23,7 @@
     ],
     "contributions": [
         {
-            "id": "Tweet_@Vsts",
+            "id": "VSSRegisterName_Tweet@Vsts",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog"
