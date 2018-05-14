@@ -15,4 +15,4 @@ See the [change log](CHANGELOG.md) for release history.
 
 ## License
 
-Software License is available [here](/LICENSE.txt).
+Software License is available [here](/LICENSE.md).
