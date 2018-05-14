@@ -41,9 +41,7 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\CatalogIcon.png" />
     <Content Include="images\Icon_twitter_avatar_128x128.png" />
-    <Content Include="images\PreviewImage.png" />
     <Content Include="images\screen1.png" />
     <Content Include="scripts\VSS.SDK.js" />
     <Content Include="Widget.html" />

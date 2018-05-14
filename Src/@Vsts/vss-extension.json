@@ -31,8 +31,8 @@
             "properties": {
                 "name": "VstsTweets",
                 "description": "Display tweets in your project dashboard",
-                "catalogIconUrl:": "images/CatalogIcon.png",
-                "previewImageUrl": "images/PreviewImage.png",
+                "catalogIconUrl:": "images/Icon_twitter_avatar_128x128.png",
+                "previewImageUrl": "images/Icon_twitter_avatar_128x128.png",
                 "uri": "Widget.html",
                 "supportedSizes": [
                     {
