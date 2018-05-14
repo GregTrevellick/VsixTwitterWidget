@@ -30,7 +30,7 @@
             ],
             "properties": {
                 "name": "dev_humorTweets",
-                "description": "A dashboard widget containing the latest tweets from @dev_humor",
+                "description": "Display tweets in your project dashboard",
                 "catalogIconUrl:": "images/CatalogIcon.png",
                 "previewImageUrl": "images/PreviewImage.png",
                 "uri": "Widget.html",
