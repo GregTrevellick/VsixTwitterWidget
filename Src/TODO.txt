@@ -1,5 +1,10 @@
 at build time xcopy licence.md & vss.sdk.js
 
+
+@visualstudio
+@DailyDotNetTips
+
+
 @azure
 @ch9
 @Code
@@ -21,7 +26,6 @@ at build time xcopy licence.md & vss.sdk.js
 @reddit_tech
 @stackoverflow
 @thedailywtf
-@visualstudio
 @VSMdev
 @vsts
 @xamarinhq
