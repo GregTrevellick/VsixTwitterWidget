@@ -1,3 +1,67 @@
+
+
+ "badges": [
+       {
+           "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
+           "uri": "https://travis.ci/fabrikam-fiber-inc/myextension.svg?branch=master",
+           "description": "TravisCI build for the project"
+       },
+       {
+           "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
+           "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
+           "description": "AppVeyor build for the project"
+       }
+   ],
+
+
+
+       "content": {
+        "details": {
+            "path": "Overview.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.TweetsVSTS"
+        },
+        "learn": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/wiki"
+        },
+        "support": {
+            "uri": "https://twitter.com/GregTrevellick"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/issues"
+        }
+    },
+
+ 
+
+
+     "screenshots": [
+        {
+            "path": "images/screen1.png"
+        }
+    ]
+
+
+supportsizes
+============
+When a widget supports multiple sizes, the first size in the array is the default size of the widget. 
+One row/column corresponds to 160px. 
+Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
+e.g. 3 x 2 widget will be 160*3 + 10*2 wide and 160*2 + 10*1 tall = 480+20 wide & 320+10 tall = 500wide, 330tall
+The maximum supported size is 4x4.
+2row 3cols
+
+
+
 at build time xcopy licence.md & vss.sdk.js
 
 
@@ -52,61 +116,3 @@ VSTS home > Cog > Extensions > Click the extension > Launches MP site > Get it f
 Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 
 
-
-
-
-
-
- "badges": [
-       {
-           "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
-           "uri": "https://travis.ci/fabrikam-fiber-inc/myextension.svg?branch=master",
-           "description": "TravisCI build for the project"
-       },
-       {
-           "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
-           "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
-           "description": "AppVeyor build for the project"
-       }
-   ],
-
-
-
-       "content": {
-        "details": {
-            "path": "Overview.md"
-        },
-        "license": {
-            "path": "LICENSE.md"
-        }
-    },
-    "links": {
-        "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.TweetsVSTS"
-        },
-        "learn": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/wiki"
-        },
-        "support": {
-            "uri": "https://twitter.com/GregTrevellick"
-        },
-        "repository": {
-            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget"
-        },
-        "issues": {
-            "uri": "https://github.com/GregTrevellick/VSTS_Tweets_Widget/issues"
-        }
-    },
-
- 
-
-
-
-supportsizes
-============
-When a widget supports multiple sizes, the first size in the array is the default size of the widget. 
-One row/column corresponds to 160px. 
-Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
-e.g. 3 x 2 widget will be 160*3 + 10*2 wide and 160*2 + 10*1 tall = 480+20 wide & 320+10 tall = 500wide, 330tall
-The maximum supported size is 4x4.
-2row 3cols

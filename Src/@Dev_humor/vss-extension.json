@@ -84,10 +84,5 @@
     "branding": {
         "color": "rgb(1, 122, 215)",
         "theme": "dark"
-    },
-    "screenshots": [
-        {
-            "path": "images/screen1.png"
-        }
-    ]
+    }
 }
