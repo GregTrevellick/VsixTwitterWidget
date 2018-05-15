@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.0.18",
-    "name": "@Vsts",
+    "version": "1.0.19",
+    "name": "@VSTS",
     "description": "Display tweets in your project dashboard",
     "publisher": "GregTrevellick",
     "targets": [
@@ -86,5 +86,8 @@
     "branding": {
         "color": "rgb(1, 122, 215)",
         "theme": "dark"
-    }
+    },
+    "galleryFlags": [
+        "Public"
+    ]    
 }
