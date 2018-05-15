@@ -86,6 +86,7 @@ at build time xcopy licence.md & vss.sdk.js
 @nodejs
 @nuget
 @OctopusDeploy
+@pluralsight
 @radiotfs
 @reddit_tech
 @stackoverflow
