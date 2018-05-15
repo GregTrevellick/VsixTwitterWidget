@@ -62,46 +62,6 @@ The maximum supported size is 4x4.
 
 
 
-at build time xcopy licence.md & vss.sdk.js
-
-
-@visualstudio
-@DailyDotNetTips
-
-
-@azure
-@ch9
-@Code
-@codeproject 
-@DailyDotNetTips
-@Dev_humor
-@DevOpsAtMSFT
-@dotnet
-@Dotnetcurry
-@dotnetfdn
-@mscloud
-@mscloud
-@mslearning
-@newsycombinator
-@nodejs
-@nuget
-@OctopusDeploy
-@radiotfs
-@reddit_tech
-@stackoverflow
-@thedailywtf
-@VSMdev
-@vsts
-@xamarinhq
-
-
-
-
-
-
-
-
-
 
 publish & install vsts extension
 ================================

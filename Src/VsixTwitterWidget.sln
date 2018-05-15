@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Dev_humor", "@Dev_humor\@Dev_humor.csproj", "{1777D40F-B871-4786-A07A-EBEF1DD6A890}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Vsts", "@Vsts\@Vsts.csproj", "{20EA3300-5D40-4A5C-9717-D67017751B23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD534310-6FE1-4484-A2C8-DD9A7B712E92}"
@@ -22,10 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1777D40F-B871-4786-A07A-EBEF1DD6A890}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20EA3300-5D40-4A5C-9717-D67017751B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20EA3300-5D40-4A5C-9717-D67017751B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20EA3300-5D40-4A5C-9717-D67017751B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
