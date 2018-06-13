@@ -33,14 +33,13 @@
   <ItemGroup>
     <None Include="Properties\AssemblyInfo.cs" />
     <None Include="app\*.*" />
-    <None Include="app\*\*.*" />
+    <None Include="app\Content\site.css" />
+    <None Include="app\Images\DefaultIcon.png" />
+    <None Include="app\Images\screen0.png" />
+    <None Include="app\Scripts\app.js" />
     <None Include="app\*\*\*.*" />
     <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="app\Images\Icon_twitter_avatar_128x128.png" />
-    <Content Include="app\Images\screen0.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

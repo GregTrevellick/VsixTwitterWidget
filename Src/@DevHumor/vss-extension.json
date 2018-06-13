@@ -54,7 +54,7 @@
             "properties": {
                 "name": "dev humor Your Widget Name (Contributions)",
                 "description": "dev humor Your brief free-text widget contributions properties description",
-                "catalogIconUrl:": "app/Images/CatalogIcon.png",
+                "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
