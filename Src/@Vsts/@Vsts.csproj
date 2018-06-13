@@ -42,12 +42,5 @@
     <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="app\Images\CatalogIcon.png" />
-    <Content Include="app\Images\DefaultIcon.png" />
-    <Content Include="app\Images\Icon_twitter_avatar_128x128.png" />
-    <Content Include="app\Images\screen0.png" />
-    <Content Include="artefacts\Screenshot.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
