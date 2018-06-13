@@ -19,8 +19,7 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
         }
     }
 
-    //VSS.register("VSSRegisterName_Tweet@Vsts"
-    VSS.register("Your_VSS.register_JavascriptFunctionCallParamaterValue", registerWidget);
+    VSS.register("VSSRegisterName_Tweet@Vsts", registerWidget);
 
     VSS.notifyLoadSucceeded();
 });
