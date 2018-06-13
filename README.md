@@ -15,7 +15,7 @@ See the [change log](CHANGELOG.md) for release history.
 
 [Contributions](https://github.com/GregTrevellick/VsixTwitterWidget/pulls) welcome.
 
-![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/@Vsts/images/screen0.png?raw=true)
+![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/screen0.png?raw=true)
 
 ## License
 
