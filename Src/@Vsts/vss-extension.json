@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.0.19",
+    "version": "1.1.0",
     "name": "@VSTS",
-    "description": "Display tweets in your project dashboard",
     "publisher": "GregTrevellick",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
+    "description": "Display tweets in your project dashboard",
     "icons": {
         "default": "images/Icon_twitter_avatar_128x128.png"
     },
@@ -23,6 +23,26 @@
         "vsts",
         "widget"
     ],
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        }
+    },
+    "screenshots": [
+        {
+            "path": "artefacts/Screenshot.png"
+        }
+    ],
+    "branding": {
+        "color": "rgb(1, 122, 215)",
+        "theme": "dark"
+    },
     "contributions": [
         {
             "id": "VSSRegisterName_Tweet@Vsts",
@@ -35,7 +55,7 @@
                 "description": "Display tweets in your project dashboard",
                 "catalogIconUrl:": "images/Icon_twitter_avatar_128x128.png",
                 "previewImageUrl": "images/Icon_twitter_avatar_128x128.png",
-                "uri": "Widget.html",
+                "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
@@ -48,46 +68,28 @@
     ],
     "files": [
         {
-            "path": "Widget.html",
+            "path": "app/dashboard-widget.html",
             "addressable": true
         },
         {
-            "path": "scripts",
+            "path": "app/Images",
             "addressable": true
         },
         {
-            "path": "images",
+            "path": "app/Scripts",
             "addressable": true
         }
     ],
     "content": {
         "details": {
-            "path": "Overview.md"
+            "path": "artefacts/Overview.md"
         },
         "license": {
-            "path": "LICENSE.md"
-        }
-    },
-    "links": {
-        "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-vsts"
-        },
-        "repository": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-        },
-        "issues": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+            "path": "artefacts/Licence.md"
         }
     },
     "repository": {
         "type": "git",
         "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-    },
-    "branding": {
-        "color": "rgb(1, 122, 215)",
-        "theme": "dark"
-    },
-    "galleryFlags": [
-        "Public"
-    ]    
+    }
 }

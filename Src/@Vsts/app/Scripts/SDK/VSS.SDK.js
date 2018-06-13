@@ -1,4 +1,14 @@
+//dependencies=
 // Copyright (C) Microsoft Corporation. All rights reserved.
+///<reference path='../References/VSS-Common.d.ts' />
+///<reference path='../References/VSS.SDK.Interfaces.d.ts' />
+///<reference path='../References/SDK.Interfaces.d.ts' />
+///<reference path='../References/VSS.SDK.Interfaces.d.ts' />
+///<reference path='../References/VSS-Common.d.ts' />
+/// This file is going to be embedded into the following typescript files in the build time:
+///     - VSS/SDK/XDM.ts
+///     - VSS/SDK/VSS.SDK.ts
+/// This module is unlike other modules which doesn't use AMD loading.
 var XDM;
 (function (XDM) {
     /**
@@ -8,7 +18,7 @@ var XDM;
         return new XdmDeferred();
     }
     XDM.createDeferred = createDeferred;
-    var XdmDeferred = /** @class */ (function () {
+    var XdmDeferred = (function () {
         function XdmDeferred() {
             var _this = this;
             this._resolveCallbacks = [];
@@ -132,7 +142,7 @@ var XDM;
     /**
      * Catalog of objects exposed for XDM
      */
-    var XDMObjectRegistry = /** @class */ (function () {
+    var XDMObjectRegistry = (function () {
         function XDMObjectRegistry() {
             this._registeredObjects = {};
         }
@@ -183,7 +193,7 @@ var XDM;
      * Represents a channel of communication between frames\document
      * Stays "alive" across multiple funtion\method calls
      */
-    var XDMChannel = /** @class */ (function () {
+    var XDMChannel = (function () {
         function XDMChannel(postToWindow, targetOrigin) {
             if (targetOrigin === void 0) { targetOrigin = null; }
             this._nextMessageId = 1;
@@ -573,23 +583,23 @@ var XDM;
             }
             return obj;
         };
-        XDMChannel._nextChannelId = 1;
-        XDMChannel.MAX_XDM_DEPTH = 100;
-        XDMChannel.WINDOW_TYPES_TO_SKIP_SERIALIZATION = [
-            "Node",
-            "Window",
-            "Event"
-        ];
-        XDMChannel.JQUERY_TYPES_TO_SKIP_SERIALIZATION = [
-            "jQuery"
-        ];
         return XDMChannel;
     }());
+    XDMChannel._nextChannelId = 1;
+    XDMChannel.MAX_XDM_DEPTH = 100;
+    XDMChannel.WINDOW_TYPES_TO_SKIP_SERIALIZATION = [
+        "Node",
+        "Window",
+        "Event"
+    ];
+    XDMChannel.JQUERY_TYPES_TO_SKIP_SERIALIZATION = [
+        "jQuery"
+    ];
     XDM.XDMChannel = XDMChannel;
     /**
     * Registry of XDM channels kept per target frame/window
     */
-    var XDMChannelManager = /** @class */ (function () {
+    var XDMChannelManager = (function () {
         function XDMChannelManager() {
             this._channels = [];
             this._subscribe(window);
@@ -671,7 +681,7 @@ var VSS;
 (function (VSS) {
     // W A R N I N G: if VssSDKVersion changes, the VSS WEB SDK demand resolver needs to be updated with the new version
     VSS.VssSDKVersion = 2.0;
-    VSS.VssSDKRestVersion = "4.0";
+    VSS.VssSDKRestVersion = "3.1";
     var bodyElement;
     var webContext;
     var hostPageContext;
