@@ -11,7 +11,7 @@
     ],
     "description": "Display tweets in your project dashboard",
     "icons": {
-        "default": "images/Icon_twitter_avatar_128x128.png"
+        "default": "app/Images/DefaultIcon.png"
     },
     "categories": [
         "Collaborate"
@@ -53,8 +53,8 @@
             "properties": {
                 "name": "VstsTweets",
                 "description": "Display tweets in your project dashboard",
-                "catalogIconUrl:": "images/Icon_twitter_avatar_128x128.png",
-                "previewImageUrl": "images/Icon_twitter_avatar_128x128.png",
+                "catalogIconUrl:": "app/Images/DefaultIcon.png",
+                "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {

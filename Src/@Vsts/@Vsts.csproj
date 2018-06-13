@@ -35,9 +35,11 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-   <None Include="Properties\AssemblyInfo.cs" />
+    <None Include="Properties\AssemblyInfo.cs" />
     <None Include="app\*.*" />
-    <None Include="app\*\*.*" />
+    <None Include="app\Images\DefaultIcon.png" />
+    <None Include="app\Images\screen0.png" />
+    <None Include="app\Scripts\app.js" />
     <None Include="app\*\*\*.*" />
     <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />

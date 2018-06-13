@@ -25,13 +25,13 @@
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=YourWidgetPublisher.YourWidgetId-UniqueAmongExtensionsFromSamePublisher"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.YourWidgetId"
         },
         "repository": {
-            "uri": "https://github.com/fabrikam-fiber-inc/tools"
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
         },
         "issues": {
-            "uri": "https://github.com/fabrikam-fiber-inc/tools/issues"
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
         }
     },
     "screenshots": [
@@ -40,7 +40,7 @@
         }
     ],
     "branding": {
-        "color": "rgb(1, 122, 215)",
+        "color": "black",
         "theme": "dark"
     },
     "contributions": [
@@ -61,22 +61,6 @@
                     {
                         "rowSpan": 2,
                         "columnSpan": 3
-                    },
-                    {
-                        "rowSpan": 1,
-                        "columnSpan": 3
-                    },
-                    {
-                        "rowSpan": 2,
-                        "columnSpan": 2
-                    },
-                    {
-                        "rowSpan": 1,
-                        "columnSpan": 1
-                    },
-                    {
-                        "rowSpan": 4,
-                        "columnSpan": 4
                     }
                 ],
 
@@ -87,10 +71,6 @@
     "files": [
         {
             "path": "app/dashboard-widget.html",
-            "addressable": true
-        },
-        {
-            "path": "app/Content",
             "addressable": true
         },
         {
