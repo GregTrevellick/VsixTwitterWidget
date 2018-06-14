@@ -25,7 +25,7 @@
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.YourWidgetId"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-devhumor"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
