@@ -2,4 +2,10 @@
 1x3, 1x1 etc
 correct screen1.png
 
+publish the template
+publish @devhumor
+republish @vsts
+create @radiotfs
+
+FUTURE
 configure background colour ?
