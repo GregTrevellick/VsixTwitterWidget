@@ -21,5 +21,6 @@ http://jsfiddle.net/c3j109md/55/
 https://stackoverflow.com/questions/15533967/styling-the-new-twitter-widget-embedded-timeline/18846544#18846544
 https://gist.github.com/buu700/4200601
 https://stackoverflow.com/questions/5525071/how-to-wait-until-an-element-exists
+https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html
 
 
