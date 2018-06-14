@@ -2,15 +2,55 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Dev Humor tweets</title>
+    <!--<link href="Content/site.css" rel="stylesheet" />-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
     <script src="Scripts/SDK/VSS.SDK.min.js"></script>
     <script src="Scripts/app.js"></script>
 </head>
 <body>
-    <div class="widget">
-        <p>
-           <a class="twitter-timeline" data-dnt="true" data-width="500" data-height="330" href="https://twitter.com/dev_humor?ref_src=twsrc%5Etfw"></a>
-        </p>
-    </div>
+    <a class="twitter-timeline" data-dnt="true" data-width="500" data-height="330" href="https://twitter.com/dev_humor?ref_src=twsrc%5Etfw"></a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!--<script type="text/javascript">
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+    </script>-->
+
+    <script type="text/javascript">
+
+        (function ($) {
+
+            /**
+            * @function
+            * @property {object} jQuery plugin which runs handler function once specified element is inserted into the DOM
+            * @param {function} handler A function to execute at the time when the element is inserted
+            * @param {bool} shouldRunHandlerOnce Optional: if true, handler is unbound after its first invocation
+            * @example $(selector).waitUntilExists(function);
+            */
+
+            $.fn.waitUntilExists = function (handler, shouldRunHandlerOnce, isChild) {
+                var found = 'found';
+                var $this = $(this.selector);
+                var $elements = $this.not(function () { return $(this).data(found); }).each(handler).data(found, true);
+
+                if (!isChild) {
+                    (window.waitUntilExists_Intervals = window.waitUntilExists_Intervals || {})[this.selector] =
+                        window.setInterval(function () { $this.waitUntilExists(handler, shouldRunHandlerOnce, true); }, 500)
+                        ;
+                }
+                else if (shouldRunHandlerOnce && $elements.length) {
+                    window.clearInterval(window.waitUntilExists_Intervals[this.selector]);
+                }
+
+                return $this;
+            }
+
+        }(jQuery));
+
+        $("iframe#twitter-widget-0").waitUntilExists(function () {
+            $("iframe#twitter-widget-0").contents().find('head').append('<style>body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > h1 { background-color: yellow; }</style>');
+        });
+    </script>
 </body>
 </html>

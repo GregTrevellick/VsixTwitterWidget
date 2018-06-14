@@ -40,6 +40,7 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Content\site.css" />
     <Content Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
