@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Dev Humor tweets</title>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="Scripts/SDK/VSS.SDK.min.js"></script>
     <script src="Scripts/app.js"></script>
 </head>
@@ -16,9 +14,10 @@
         $("iframe#twitter-widget-0").waitUntilExists(function () {
             $("iframe#twitter-widget-0").contents().find('head').append(
                 '<style>' +
-                    'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > h1 { font-size: 12px !important; line-height: 1px !important; }' +
-                    'body > div > div.timeline - Header.timeline - InformationCircle - widgetParent { padding: 1px !important; } ' +
-                    'body > div > div.timeline - Header.timeline - InformationCircle - widgetParent > div { top: 1px !important; }' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > h1 { font-size: 12px !important; line-height: 1px !important; }' +
+                'body > div > div.timeline - Header.timeline - InformationCircle - widgetParent { padding: 1px !important; } ' +
+                'body > div > div.timeline - Header.timeline - InformationCircle - widgetParent > div { top: 1px !important; }' +
+                'body > div > footer { padding: 0px !important }' +
                 '</style >'
             );
         });
