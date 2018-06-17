@@ -139,3 +139,9 @@ at build time xcopy licence.md & vss.sdk.js
 @VSMdev
 @vsts
 @xamarinhq
+
+
+
+
+
+credits (in template?) https://github.com/areve/IframeDashboardWidget
