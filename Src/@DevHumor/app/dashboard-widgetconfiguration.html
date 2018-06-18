@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>-->
+    <script src="Scripts/SDK/VSS.SDK.min.js"></script>
+    <script type="text/javascript">
+
+        //console.log("a");
+
+        VSS.init({
+            explicitNotifyLoaded: true,
+            usePlatformStyles: true
+        });
+
+        VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
+            VSS.register("VSSRegisterNameTweetDevHumorConfiguration", function () {
+
+                //var $queryDropdown = $("#query-path-dropdown");
+
+                //var getQueryInfo = function (widgetSettings) {
+                //    // Get a WIT client to make REST calls to VSTS
+                //    return TFS_Wit_WebApi.getClient().getQuery(projectId, "Shared Queries/Feedback")
+                //        .then(function (query) {
+                //            // Do something with the query
+
+                //            return WidgetHelpers.WidgetStatusHelper.Success();
+                //        }, function (error) {
+                //            return WidgetHelpers.WidgetStatusHelper.Failure(error.message);
+                //        });
+                //}
+
+                return {
+                    //load: function (widgetSettings, widgetConfigurationContext) {
+                    //    var settings = JSON.parse(widgetSettings.customSettings.data);
+                    //    if (settings && settings.queryPath) {
+                    //        $queryDropdown.val(settings.queryPath);
+                    //    }
+                    //
+                    //    $queryDropdown.on("change", function () {
+                    //        var customSettings = { data: JSON.stringify({ queryPath: $queryDropdown.val() }) };
+                    //        var eventName = WidgetHelpers.WidgetEvent.ConfigurationChange;
+                    //        var eventArgs = WidgetHelpers.WidgetEvent.Args(customSettings);
+                    //        widgetConfigurationContext.notify(eventName, eventArgs);
+                    //    });
+                    //
+                    //    return WidgetHelpers.WidgetStatusHelper.Success();
+                    //},         
+
+                    load: function (widgetSettings) {
+                        // Set your title
+                        //var $title = $('h2.title');
+                        //$title.text('Hello World');
+                        return WidgetHelpers.WidgetStatusHelper.Success();
+                        //return;//getQueryInfo(widgetSettings);
+                    },
+
+                    reload: function (widgetSettings) {
+                        return WidgetHelpers.WidgetStatusHelper.Success();
+                        //return;// getQueryInfo(widgetSettings);
+                    },
+
+                    //onSave: function () {
+                        ////debugger;
+                        ////var customSettings = { data: JSON.stringify({ queryPath: $queryDropdown.val() }) };
+                        //var customSettings = { data: JSON.stringify({ queryPath: "abc" }) };
+                        //return WidgetHelpers.WidgetConfigurationSave.Valid(customSettings);
+                    //}
+                    onSave: function () {
+                        var customSettings = { data: "abc" };
+                        return WidgetHelpers.WidgetConfigurationSave.Valid(customSettings);
+                    }
+                }
+            });
+            VSS.notifyLoadSucceeded();
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <!--
+            <label class="label">Query: </label>
+            <select id="query-path-dropdown" style="margin-top:10px">
+                <option value="" selected disabled hidden>Please select a query</option>
+                <option value="Shared Queries/Feedback">Shared Queries/Feedback</option>
+                <option value="Shared Queries/My Bugs">Shared Queries/My Bugs</option>
+                <option value="Shared Queries/My Tasks">Shared Queries/My Tasks</option>
+            </select>
+            -->
+        </fieldset>
+    </div>
+</body>
+</html>

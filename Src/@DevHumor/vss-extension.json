@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.5",
+    "version": "1.1.53",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -48,7 +48,8 @@
             "id": "VSSRegisterName_Tweet@DevHumor",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
-                "ms.vss-dashboards-web.widget-catalog"
+                "ms.vss-dashboards-web.widget-catalog",
+                ".VSSRegisterNameTweetDevHumorConfiguration"
             ],
 
             "properties": {
@@ -59,22 +60,38 @@
                 "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {
-                        "rowSpan": 2,
+                        "rowSpan": 1,
                         "columnSpan": 3
                     },
                     {
                         "rowSpan": 1,
-                        "columnSpan": 3
+                        "columnSpan": 4
                     }
                 ],
 
                 "supportedScopes": [ "project_team" ]
+            }
+        },
+        {
+            "id": "VSSRegisterNameTweetDevHumorConfiguration",
+            "type": "ms.vss-dashboards-web.widget-configuration",
+            "targets": [
+                "ms.vss-dashboards-web.widget-configuration"
+            ],
+            "properties": {
+                "name": "DevHumor Configuration",
+                "description": "Configures DevHumor",
+                "uri": "app/dashboard-widgetconfiguration.html"
             }
         }
     ],
     "files": [
         {
             "path": "app/dashboard-widget.html",
+            "addressable": true
+        },
+        {
+            "path": "app/dashboard-widgetconfiguration.html",
             "addressable": true
         },
         {
