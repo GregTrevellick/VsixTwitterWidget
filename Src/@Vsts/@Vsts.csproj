@@ -44,4 +44,9 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>$(ProjectDir)\app\dashboard-widget.html
+
+REM tfx extension create --manifest-globs vss-extension.json</PreBuildEvent>
+  </PropertyGroup>
 </Project>
