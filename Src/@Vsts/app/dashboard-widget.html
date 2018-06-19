@@ -2,15 +2,29 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>@Vsts</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="Scripts/SDK/VSS.SDK.min.js"></script>
     <script src="Scripts/app.js"></script>
 </head>
 <body>
-    <div class="widget">
-        <p>
-            <a class="twitter-timeline" data-dnt="true" data-width="500" data-height="330" href="https://twitter.com/VSTS?ref_src=twsrc%5Etfw"></a>
-        </p>
-    </div>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-dnt="true" data-width="500" data-height="330" href="https://twitter.com/VSTS?ref_src=twsrc%5Etfw"></a>
+
+    <script async type="text/javascript" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        $("iframe#twitter-widget-0").waitUntilExists(function () {
+            $("iframe#twitter-widget-0").contents().find('head').append(
+                '<style>' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent { padding: 0px !important; } ' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > div { top: 0px !important; } ' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > h1 { font-size: 12px !important; line-height: 1px !important; } ' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent { padding: 1px !important; } ' +
+                'body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > div { top: 1px !important; } ' +
+                'body > div > footer { padding: 0px !important } ' +
+                '</style >'
+            );
+        });
+    </script>
+
 </body>
 </html>

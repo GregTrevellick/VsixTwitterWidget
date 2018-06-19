@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.54",
+    "version": "1.1.55",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "dev humor tweets",
+    "description": "Display @dev_humor tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -21,6 +21,7 @@
         "tweet",
         "twitter",
         "devhumor",
+        "dev_humor",
         "widget"
     ],
     "links": {
@@ -53,8 +54,8 @@
             ],
 
             "properties": {
-                "name": "dev humor Your Widget Name (Contributions)",
-                "description": "dev humor Your brief free-text widget contributions properties description",
+                "name": "Dev Humor Tweets",
+                "description": "Display @dev_humor tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
@@ -79,8 +80,8 @@
                 "ms.vss-dashboards-web.widget-configuration"
             ],
             "properties": {
-                "name": "DevHumor Configuration",
-                "description": "Configures DevHumor",
+                "name": "Dev Humor Tweets Widget Configuration",
+                "description": "Configures Dev Humor Tweets Widget",
                 "uri": "app/dashboard-widgetconfiguration.html"
             }
         }

@@ -1,17 +1,12 @@
-﻿reduce Tweets by font size
-1x3, 1x1 etc
+﻿1x3, 1x1 etc
 correct screen1.png
 
 publish the template
 publish @devhumor
 republish @vsts
-create @radiotfs
 
 FUTURE
 configure background colour ?
-
-
-
 
 
 https://stackoverflow.com/questions/583753/using-css-to-affect-div-style-inside-iframe?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
