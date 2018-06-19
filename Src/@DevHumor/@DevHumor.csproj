@@ -45,8 +45,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
+    <PreBuildEvent>REM xcopy /y C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\TextFile1.bat $(ProjectDir)
+REM $(ProjectDir)TextFile1.bat</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
