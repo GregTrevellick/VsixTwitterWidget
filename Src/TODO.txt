@@ -145,3 +145,36 @@ at build time xcopy licence.md & vss.sdk.js
 
 
 credits (in template?) https://github.com/areve/IframeDashboardWidget
+
+
+
+
+
+https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2012/42x5kfw4(v=vs.110)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open Visual Studio.
+Click Tools > Options.
+Click Text Editor > File Extension.
+In the Extension box, enter bat.
+In the Editor drop down, select Source Code (Text) Editor With Encoding and click Add.
+Click OK to save and exit.
+Now, when you open a .bat file from within Visual Studio, you will initially get prompted with:
+You will want to drill down through the options until you come to the DOS option of your language:
+https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-or-external-command

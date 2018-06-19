@@ -45,9 +45,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>$(ProjectDir)\app\dashboard-widget.html
-
-REM tfx extension create --manifest-globs vss-extension.json</PreBuildEvent>
+    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\TextFile1.bat</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
