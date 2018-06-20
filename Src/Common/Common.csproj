@@ -48,7 +48,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="artefacts\Licence.md" />
-    <None Include="TextFile1.bat" />
+    <None Include="Builder.bat" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\app.js" />
@@ -61,6 +61,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\TextFile1.bat</PreBuildEvent>
+    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\Builder.bat</PreBuildEvent>
   </PropertyGroup>
 </Project>
