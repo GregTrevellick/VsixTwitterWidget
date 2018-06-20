@@ -18,8 +18,8 @@ xcopy /r /y "C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\artefacts\
 
 
 REM copy the javascript files
-xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\ /e /i /y /s 
-xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\ /e /i /y /s 
+rem todo xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\ /e /i /y /s 
+rem todo xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\ /e /i /y /s 
 
 
 

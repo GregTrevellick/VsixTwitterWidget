@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.56",
+    "version": "1.1.60",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -61,12 +61,12 @@
                 "uri": "app/dashboard-widget.html",
                 "supportedSizes": [
                     {
-                        "rowSpan": 1,
+                        "rowSpan": 2,
                         "columnSpan": 3
                     },
                     {
                         "rowSpan": 1,
-                        "columnSpan": 4
+                        "columnSpan": 3
                     }
                 ],
 
