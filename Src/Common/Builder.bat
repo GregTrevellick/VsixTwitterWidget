@@ -24,8 +24,8 @@ xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\SDK\*
 
 
 REM copy the javascript files
-xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\styling.js /e /i /y /s 
-xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\styling.js /e /i /y /s 
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\styling.js /r /y 
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\styling.js /r /y
 
 
 
