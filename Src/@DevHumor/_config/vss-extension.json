@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.61",
+    "version": "1.1.60",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -49,7 +49,8 @@
             "id": "VSSRegisterName_Tweet@DevHumor",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
-                "ms.vss-dashboards-web.widget-catalog"
+                "ms.vss-dashboards-web.widget-catalog",
+                ".VSSRegisterNameTweetDevHumorConfiguration"
             ],
 
             "properties": {
@@ -71,11 +72,27 @@
 
                 "supportedScopes": [ "project_team" ]
             }
+        },
+        {
+            "id": "VSSRegisterNameTweetDevHumorConfiguration",
+            "type": "ms.vss-dashboards-web.widget-configuration",
+            "targets": [
+                "ms.vss-dashboards-web.widget-configuration"
+            ],
+            "properties": {
+                "name": "Dev Humor Tweets Widget Configuration",
+                "description": "Configures Dev Humor Tweets Widget",
+                "uri": "app/dashboard-widgetconfiguration.html"
+            }
         }
     ],
     "files": [
         {
             "path": "app/dashboard-widget.html",
+            "addressable": true
+        },
+        {
+            "path": "app/dashboard-widgetconfiguration.html",
             "addressable": true
         },
         {

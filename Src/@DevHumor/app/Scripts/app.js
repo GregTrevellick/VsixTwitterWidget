@@ -1,5 +1,6 @@
 //https://github.com/Microsoft/vss-web-extension-sdk
 
+
 VSS.init({
     explicitNotifyLoaded: true,
     usePlatformStyles: true
@@ -19,7 +20,11 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
         }
     }
 
-    VSS.register("VSSRegisterName_Tweet@DevHumor", registerWidget);
+    var vssRegisterName = "VSSRegisterName_Tweet@DevHumor";
+
+    console.log("vssRegisterName = " + vssRegisterName);
+
+    VSS.register(vssRegisterName, registerWidget);
 
     VSS.notifyLoadSucceeded();
 });

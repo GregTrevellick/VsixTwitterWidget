@@ -31,8 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="_config\vss-extension.json" />
     <None Include="Properties\AssemblyInfo.cs" />
-    <None Include="app\*.*" />
+    <None Include="app\dashboard-widget.html" />
+    <None Include="app\dashboard-widgetconfiguration.html" />
     <None Include="app\Images\DefaultIcon.png" />
     <None Include="app\Scripts\app.js" />
     <None Include="app\*\*\*.*" />
