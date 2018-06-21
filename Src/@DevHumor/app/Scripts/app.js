@@ -19,9 +19,9 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
         }
     }
 
-    var vssRegisterName = "VSSRegisterName_Tweet@DevHumor";
+    //var vssRegisterName = "VSSRegisterName_Tweet@DevHumor";
 
-    console.log("vssRegisterName = " + vssRegisterName);
+    //console.log("vssRegisterName = " + vssRegisterName);
 
     VSS.register(vssRegisterName, registerWidget);
 
