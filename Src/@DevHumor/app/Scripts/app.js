@@ -1,4 +1,5 @@
 //https://github.com/Microsoft/vss-web-extension-sdk
+console.log("common");
 
 VSS.init({
     explicitNotifyLoaded: true,
@@ -18,10 +19,6 @@ VSS.require("TFS/Dashboards/WidgetHelpers", function (WidgetHelpers) {
             }
         }
     }
-
-    //var vssRegisterName = "VSSRegisterName_Tweet@DevHumor";
-
-    //console.log("vssRegisterName = " + vssRegisterName);
 
     VSS.register(vssRegisterName, registerWidget);
 
