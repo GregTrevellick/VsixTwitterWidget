@@ -1,6 +1,5 @@
 //https://github.com/Microsoft/vss-web-extension-sdk
 
-
 VSS.init({
     explicitNotifyLoaded: true,
     usePlatformStyles: true
