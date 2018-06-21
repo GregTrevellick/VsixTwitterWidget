@@ -9,4 +9,11 @@ $("iframe#twitter-widget-0").waitUntilExists(function () {
         'body > div > footer { padding: 0px !important } ' +
         '</style >'
     );
+
+    $("iframe#twitter-widget-0").contents().find('body > div > footer').append(
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
+        '<a href="https://gregtrevellick.github.io/VsixTwitterWidgetMore/">' +
+            'More...' +
+        '</a>'
+    );
 });
