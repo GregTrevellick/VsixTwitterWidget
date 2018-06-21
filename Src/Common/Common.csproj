@@ -40,6 +40,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="artefacts\Licence.md" />
     <None Include="Builder.bat" />
   </ItemGroup>
@@ -51,6 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\SDK\VSS.SDK.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app\Scripts\styling.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

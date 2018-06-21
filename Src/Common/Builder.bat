@@ -17,9 +17,15 @@ xcopy /r /y "C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\artefacts\
 
 
 
+REM copy the SDK files
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\SDK\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\SDK\ /e /i /y /s 
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\SDK\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\SDK\ /e /i /y /s 
+
+
+
 REM copy the javascript files
-rem todo xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\ /e /i /y /s 
-rem todo xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\* C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\ /e /i /y /s 
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\styling.js /e /i /y /s 
+xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styling.js C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\styling.js /e /i /y /s 
 
 
 
