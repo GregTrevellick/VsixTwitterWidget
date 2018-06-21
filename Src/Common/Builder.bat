@@ -33,6 +33,10 @@ REM Make the new files read-only
 REM TODO do this recursively for directory ?
 attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\artefacts\Licence.md
 attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\artefacts\Licence.md
+attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\styling.js
+attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\styling.js
+attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@DevHumor\app\Scripts\SDK\*
+attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@Vsts\app\Scripts\SDK\*
 
 
 
