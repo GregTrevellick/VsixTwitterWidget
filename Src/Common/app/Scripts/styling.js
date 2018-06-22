@@ -12,7 +12,7 @@ $("iframe#twitter-widget-0").waitUntilExists(function () {
 
     $("iframe#twitter-widget-0").contents().find('body > div > footer').append(
         '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
-        '<a href="https://gregtrevellick.github.io/VsixTwitterWidgetMore/">' +
+        '<a href="https://gregtrevellick.github.io/More/">' +
             'More...' +
         '</a>'
     );

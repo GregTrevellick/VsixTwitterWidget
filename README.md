@@ -19,6 +19,10 @@ See the [change log](CHANGELOG.md) for release history.
 
 ![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/screen1.png?raw=true)
 
+## Credits
+
+[Sam Hocevar](http://www.wtfpl.net/)
+
 ## License
 
 Software License is available [here](/LICENSE.md).

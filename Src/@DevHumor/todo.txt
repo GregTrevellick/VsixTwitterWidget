@@ -6,7 +6,7 @@ Move 'more' to top
 Loop names in builder.bat
 Substitute paths in builder.Bat
 
-Try different Jekyll themes
+
 put more link as support in .json
 
 
