@@ -1,11 +1,7 @@
 ﻿1x3, 1x1 etc
 correct screen1.png
 
-Loop names in builder.bat
 Substitute paths in builder.Bat
-
-
-
 
 
 
