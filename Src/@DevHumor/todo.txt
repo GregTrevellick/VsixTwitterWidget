@@ -2,7 +2,12 @@
 1x3, 1x1 etc
 correct screen1.png
 
+Move 'more' to top
+Loop names in builder.bat
+Substitute paths in builder.Bat
 
+Try different Jekyll themes
+put more link as support in .json
 
 
 
