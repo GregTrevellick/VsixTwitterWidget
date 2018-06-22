@@ -31,7 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="_config\vss-extension.json" />
     <None Include="Properties\AssemblyInfo.cs" />
     <None Include="app\dashboard-widget.html" />
     <None Include="app\Images\DefaultIcon.png" />
@@ -41,7 +40,6 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="_config\dashboard-widgetconfiguration.html" />
     <None Include="app\Scripts\styling.js" />
     <Content Include="todo.txt" />
   </ItemGroup>
