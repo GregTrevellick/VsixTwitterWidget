@@ -5,7 +5,6 @@ Loop names in builder.bat
 Substitute paths in builder.Bat
 
 
-put more link as support in .json
 
 
 
