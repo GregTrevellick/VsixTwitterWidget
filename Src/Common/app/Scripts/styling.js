@@ -10,10 +10,10 @@ $("iframe#twitter-widget-0").waitUntilExists(function () {
         '</style >'
     );
 
-    $("iframe#twitter-widget-0").contents().find('body > div > footer').append(
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
+    $("iframe#twitter-widget-0").contents().find('body > div > div.timeline-Header.timeline-InformationCircle-widgetParent > h1').append(
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' +
         '<a href="https://gregtrevellick.github.io/More/">' +
-            'More...' +
+            'More' +
         '</a>'
     );
 });
