@@ -41,7 +41,7 @@
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="_config\dashboard-widgetconfiguration.html" />
+    <None Include="app\dashboard-widgetconfiguration.html" />
     <None Include="app\Scripts\styling.js" />
     <Content Include="todo.txt" />
   </ItemGroup>

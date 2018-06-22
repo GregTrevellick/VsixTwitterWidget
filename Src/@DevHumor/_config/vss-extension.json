@@ -33,6 +33,15 @@
         },
         "issues": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        },
+        "support": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        },
+        "getstarted": {
+            "uri": "https://gregtrevellick.github.io/More/"
+        },
+        "learn": {
+            "uri": "https://gregtrevellick.github.io/More/"
         }
     },
     "screenshots": [
