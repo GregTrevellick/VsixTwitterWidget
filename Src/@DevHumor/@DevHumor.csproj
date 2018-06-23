@@ -41,7 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\styling.js" />
-    <Content Include="todo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

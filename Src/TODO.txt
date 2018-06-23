@@ -1,3 +1,24 @@
+1x3, 1x1 etc
+
+Substitute paths in builder.Bat
+
+
+
+FUTURE
+configure background colour ?
+
+
+
+
+
+
+
+
+
+
+
+
+
  "badges": [
        {
            "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
@@ -37,7 +58,6 @@ Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 
 
 
-at build time xcopy licence.md & vss.sdk.js
 
 
 @visualstudio
@@ -144,7 +164,6 @@ at build time xcopy licence.md & vss.sdk.js
 
 
 
-credits (in template?) https://github.com/areve/IframeDashboardWidget
 
 
 
