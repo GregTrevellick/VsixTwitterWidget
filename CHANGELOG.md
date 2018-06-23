@@ -30,4 +30,7 @@ In the Extension box, enter bat. In the Editor drop down, select Source Code (Te
 Now, when you open a .bat file from within Visual Studio, you will initially get prompted with:
 You will want to drill down through the options until you come to the DOS option of your language:
 https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-or-external-command
+
+XCOPY arguments
+https://support.microsoft.com/en-gb/help/289483/switches-that-you-can-use-with-xcopy-and-xcopy32-commands
 -->
