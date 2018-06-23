@@ -33,4 +33,5 @@ https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-o
 
 XCOPY arguments
 https://support.microsoft.com/en-gb/help/289483/switches-that-you-can-use-with-xcopy-and-xcopy32-commands
+http://www.siddharthpandey.net/how-to-copy-any-files-using-visual-studios-build-events/
 -->
