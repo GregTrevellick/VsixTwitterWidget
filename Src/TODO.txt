@@ -1,5 +1,8 @@
 badges
 
+create files if it doesn't exist 
+
+
 supportsizes
 ============
 When a widget supports multiple sizes, the first size in the array is the default size of the widget. 
