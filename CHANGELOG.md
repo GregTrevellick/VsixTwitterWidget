@@ -34,4 +34,16 @@ https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-o
 XCOPY arguments
 https://support.microsoft.com/en-gb/help/289483/switches-that-you-can-use-with-xcopy-and-xcopy32-commands
 http://www.siddharthpandey.net/how-to-copy-any-files-using-visual-studios-build-events/
+
+publish & install vsts extension
+================================
+Cmd
+cd  C:\Users\gtrev\Source\Repos\VSTS_Tweets_Widget\Src
+[one-off] npm i -g tfx-cli
+tfx extension create --manifest-globs vss-extension.json   (n.b. auto-increments version nbr in vss-extension.json)
+https://marketplace.visualstudio.com/manage/publishers/gregtrevellick
++New > VSTS
+Share > GregTrevellick > Enter
+VSTS home > Cog > Extensions > Click the extension > Launches MP site > Get it free > Install
+Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 -->

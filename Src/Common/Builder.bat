@@ -20,8 +20,7 @@ attrib +R %1@%%G\app\Scripts\*
 REM launch widgets in browsers
 start  %1@%%G\app\dashboard-widget.html
 
-REM re-gen vsix's (having manually updated the version no. in json files)
-rem todo auto updated the version no. in json files
+REM re-gen vsix's 
 cd %1@%%G\
 tfx extension create --rev-version --manifest-globs vss-extension.json
 
