@@ -14,10 +14,11 @@ xcopy C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\app\Scripts\styli
 
 REM Make the new files read-only
 rem todo do this recursively for directory ?
-attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\artefacts\Licence.md
-attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\app.js
-attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\styling.js
-attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\SDK\*
+rem attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\artefacts\Licence.md
+rem attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\app.js
+rem attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\styling.js
+rem attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\SDK\*
+attrib +R C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\Scripts\*
 
 REM launch widgets in browsers
 start  C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\@%%G\app\dashboard-widget.html
