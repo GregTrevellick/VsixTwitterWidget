@@ -1,36 +1,6 @@
-1x3, 1x1 etc
-
 Substitute paths in builder.Bat
 
-
-
-FUTURE
-configure background colour ?
-
-
-
-
-
-
-
-
-
-
-
-
-
- "badges": [
-       {
-           "href": "https://travis.ci/fabrikam-fiber-inc/myextension",
-           "uri": "https://travis.ci/fabrikam-fiber-inc/myextension.svg?branch=master",
-           "description": "TravisCI build for the project"
-       },
-       {
-           "href": "https://ci.appveyor.com/projects/fabrikam-fiber-inc/myextension",
-           "uri": "https://ci.appveyor.com/api/projects/status/vlg2sgs2y7tsdxpj4c?svg=true",
-           "description": "AppVeyor build for the project"
-       }
-   ],
+badges
 
 supportsizes
 ============
@@ -52,18 +22,6 @@ Share > GregTrevellick > Enter
 VSTS home > Cog > Extensions > Click the extension > Launches MP site > Get it free > Install
 Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 
-
-
-
-
-
-
-
-
-@visualstudio
-@DailyDotNetTips
-
-
 @azure
 @ch9
 @Code
@@ -74,79 +32,7 @@ Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 @dotnet
 @Dotnetcurry
 @dotnetfdn
-@mscloud
-@mscloud
-@mslearning
-@newsycombinator
-@nodejs
-@nuget
-@OctopusDeploy
-@radiotfs
-@reddit_tech
-@stackoverflow
-@thedailywtf
-@VSMdev
-@vsts
-@xamarinhq
-
-
-
-
-
-
-
-
-
-@thedailywtf
-@stackoverflow
-@codeproject 
-
-
-
-
-
-
-
-@azure
-@ch9
-@Code
-@DailyDotNetTips
-@Dev_humor
-@DevOpsAtMSFT
-@dotnet
-@Dotnetcurry
-@dotnetfdn
-@mscloud
-@mscloud
-@mslearning
-@newsycombinator
-@nodejs
-@nuget
-@OctopusDeploy
-@radiotfs
-@reddit_tech
-@visualstudio
-@VSMdev
-@vsts
-@xamarinhq
-
-
-
 @dotnetkicks 
-
-
-
-
-@azure
-@ch9
-@Code
-@DailyDotNetTips
-@Dev_humor
-@DevOpsAtMSFT
-@dotnet
-@Dotnetcurry
-@dotnetfdn
-@mscloud
 @mscloud
 @mslearning
 @newsycombinator
@@ -155,45 +41,9 @@ Project dashboard > Bottom RHS > Click plus > Scroll down and select extension
 @OctopusDeploy
 @radiotfs
 @reddit_tech
+@stackoverflow
+@thedailywtf
 @visualstudio
 @VSMdev
 @vsts
 @xamarinhq
-
-
-
-
-
-
-
-
-
-
-https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2012/42x5kfw4(v=vs.110)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Open Visual Studio.
-Click Tools > Options.
-Click Text Editor > File Extension.
-In the Extension box, enter bat.
-In the Editor drop down, select Source Code (Text) Editor With Encoding and click Add.
-Click OK to save and exit.
-Now, when you open a .bat file from within Visual Studio, you will initially get prompted with:
-You will want to drill down through the options until you come to the DOS option of your language:
-https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-or-external-command

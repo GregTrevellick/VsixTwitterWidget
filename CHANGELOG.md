@@ -20,4 +20,14 @@ https://stackoverflow.com/questions/217776/how-to-apply-css-to-iframe
 https://stackoverflow.com/questions/25617202/how-to-customize-the-style-of-a-twitter-iframe-scroll-bar?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 https://stackoverflow.com/questions/15533967/styling-the-new-twitter-widget-embedded-timeline/18846544#18846544
 https://stackoverflow.com/questions/5525071/how-to-wait-until-an-element-exists
+
+BUILD EVENT VARIABLES
+https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2012/42x5kfw4(v=vs.110)
+
+BAT FILES ENCODING
+VS > Tools > Options > Click Text Editor > File Extension.
+In the Extension box, enter bat. In the Editor drop down, select Source Code (Text) Editor With Encoding and click Add. Click OK to save and exit.
+Now, when you open a .bat file from within Visual Studio, you will initially get prompted with:
+You will want to drill down through the options until you come to the DOS option of your language:
+https://superuser.com/questions/601282/%CC%81-is-not-recognized-as-an-internal-or-external-command
 -->
