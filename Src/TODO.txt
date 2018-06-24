@@ -1,7 +1,5 @@
 badges
 
-supportsizes
-============
 When a widget supports multiple sizes, the first size in the array is the default size of the widget. 
 One row/column corresponds to 160px. 
 Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
