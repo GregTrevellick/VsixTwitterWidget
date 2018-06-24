@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.77",
+    "version": "1.1.98",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -59,7 +59,7 @@
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog",
-                "VSSRegisterName_Tweet@DevHumorConfiguration"
+                ".VSSRegisterNameTweetDevHumorConfiguration"
             ],
 
             "properties": {
@@ -68,10 +68,71 @@
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
+                "isNameConfigurable": true,
                 "supportedSizes": [
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 1,
+                        "columnSpan": 4
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 2
+                    },
                     {
                         "rowSpan": 2,
                         "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 3,
+                        "columnSpan": 4
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 1
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 2
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 3
+                    },
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 4
                     }
                 ],
 
@@ -79,7 +140,7 @@
             }
         },
         {
-            "id": "VSSRegisterName_Tweet@DevHumorConfiguration",
+            "id": "VSSRegisterNameTweetDevHumorConfiguration",
             "type": "ms.vss-dashboards-web.widget-configuration",
             "targets": [
                 "ms.vss-dashboards-web.widget-configuration"

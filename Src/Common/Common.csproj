@@ -58,6 +58,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\Builder.bat</PreBuildEvent>
+    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\Builder.bat $(SolutionDir) $(ProjectDir)</PreBuildEvent>
   </PropertyGroup>
 </Project>
