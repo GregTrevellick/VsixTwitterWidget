@@ -11,6 +11,8 @@
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,6 +45,8 @@
     <None Include="App.config" />
     <None Include="artefacts\Licence.md" />
     <None Include="Builder.bat" />
+    <None Include="bundleconfig.json" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\common.js" />
@@ -56,8 +60,23 @@
   <ItemGroup>
     <None Include="app\Scripts\styling.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Scripts\common.min.js">
+      <DependentUpon>common.js</DependentUpon>
+    </Content>
+    <Content Include="app\Scripts\styling.min.js">
+      <DependentUpon>styling.js</DependentUpon>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\Builder.bat $(SolutionDir) $(ProjectDir)</PreBuildEvent>
   </PropertyGroup>
+  <Import Project="..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets" Condition="Exists('..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets'))" />
+  </Target>
 </Project>

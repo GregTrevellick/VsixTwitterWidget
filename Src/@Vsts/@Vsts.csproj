@@ -49,6 +49,14 @@
   <ItemGroup>
     <None Include="app\Scripts\app.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\Scripts\common.min.js">
+      <DependentUpon>common.js</DependentUpon>
+    </Content>
+    <Content Include="app\Scripts\styling.min.js">
+      <DependentUpon>styling.js</DependentUpon>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
