@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{20EA3300-5D40-4A5C-9717-D67017751B23}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>_Vsts</RootNamespace>
+    <RootNamespace>VsixTwitterWidget</RootNamespace>
     <AssemblyName>%40Vsts</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

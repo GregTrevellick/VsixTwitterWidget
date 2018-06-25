@@ -8,7 +8,7 @@
     <ProjectGuid>{866CEA23-923B-46CD-B46A-BA20E63A7A89}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_DevHumor</RootNamespace>
+    <RootNamespace>VsixTwitterWidget</RootNamespace>
     <AssemblyName>%40DevHumor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
