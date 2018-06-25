@@ -1,22 +1,3 @@
-badges
-
-1c x 1r data-width="160" data-height="160" 
-2c x 1r data-width="330" data-height="160"  
-3c x 1r data-width="500" data-height="160"
-1c x 2r data-width="160" data-height="330"
-2c x 2r data-width="330" data-height="330"
-3c x 2r data-width="500" data-height="330"
-
-
-When a widget supports multiple sizes, the first size in the array is the default size of the widget. 
-One row/column corresponds to 160px. 
-Any dimension above 1x1 will get an additional 10px that represent the gutter between widgets.
-e.g. 3 x 2 widget will be 160*3 + 10*2 wide and 160*2 + 10*1 tall = 480+20 wide & 320+10 tall = 500wide, 330tall
-The maximum supported size is 4x4.
-
-
-
-
 @azure many
 @DailyDotNetTips many
 @Dotnetcurry many
@@ -25,7 +6,6 @@ The maximum supported size is 4x4.
 @OctopusDeploy many
 @xamarinhq many
 @theregister many
-
 
 @ch9
 @Code
@@ -44,3 +24,17 @@ The maximum supported size is 4x4.
 @visualstudio many
 @VSMdev many
 @vsts done
+
+
+
+FUTURE
+======
+
+badges
+
+1c x 1r data-width="160" data-height="160" 
+2c x 1r data-width="330" data-height="160"  
+3c x 1r data-width="500" data-height="160"
+1c x 2r data-width="160" data-height="330"
+2c x 2r data-width="330" data-height="330"
+3c x 2r data-width="500" data-height="330"
