@@ -43,7 +43,8 @@
     <None Include="app\Scripts\styling.js" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\Scripts\app.js" />
+    <None Include="app\Scripts\app.js" />
+    <Content Include="app\Scripts\common.js" />
     <Content Include="app\Scripts\SDK\VSS.SDK.js" />
     <Content Include="app\Scripts\SDK\VSS.SDK.min.js" />
   </ItemGroup>

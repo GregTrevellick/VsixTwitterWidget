@@ -45,7 +45,7 @@
     <None Include="Builder.bat" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app\Scripts\app.js" />
+    <None Include="app\Scripts\common.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\SDK\VSS.SDK.js" />

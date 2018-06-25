@@ -38,13 +38,16 @@
     <None Include="Properties\AssemblyInfo.cs" />
     <None Include="app\*.*" />
     <None Include="app\Images\DefaultIcon.png" />
-    <None Include="app\Scripts\app.js" />
+    <None Include="app\Scripts\common.js" />
     <None Include="app\*\*\*.*" />
     <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\styling.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app\Scripts\app.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
