@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-devhumor",
+    "id": "vsts-extensions-tweets-azure",
     "version": "1.1.107",
-    "name": "@DevHumor",
+    "name": "@Azure",
     "publisher": "GregTrevellick",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @dev_humor tweets in your project dashboard",
+    "description": "Display @azure tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,13 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "devhumor",
-        "dev_humor",
+        "azure",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-devhumor"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-azure"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -55,15 +54,15 @@
     },
     "contributions": [
         {
-            "id": "VSSRegisterName_Tweet@DevHumor",
+            "id": "VSSRegisterName_Tweet@Azure",
             "type": "ms.vss-dashboards-web.widget",
             "targets": [
                 "ms.vss-dashboards-web.widget-catalog"
             ],
 
             "properties": {
-                "name": "Dev Humor Tweets",
-                "description": "Display @dev_humor tweets in your project dashboard",
+                "name": "Azure Tweets",
+                "description": "Display @azure tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
