@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-vsts",
-    "version": "1.1.35",
+    "version": "1.1.37",
     "name": "@VSTS",
     "publisher": "GregTrevellick",
     "targets": [
@@ -68,7 +68,7 @@
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
-                        "columnSpan": 3
+                        "columnSpan": 2
                     }
                 ],
                 "supportedScopes": [ "project_team" ]

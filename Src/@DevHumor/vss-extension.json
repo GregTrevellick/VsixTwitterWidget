@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-devhumor",
-    "version": "1.1.112",
+    "version": "1.1.114",
     "name": "@DevHumor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -70,7 +70,7 @@
                 "supportedSizes": [
                     {
                         "rowSpan": 2,
-                        "columnSpan": 3
+                        "columnSpan": 2
                     }
                 ],
 
