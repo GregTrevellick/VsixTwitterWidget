@@ -1,3 +1,3 @@
-Keep up to date with Azure by seeing [Azure's tweets](https://twitter.com/Azure) in your dashboard.
+Keep up to date with the latest Azure news by adding [@Azure](https://twitter.com/Azure) tweets to your dashboard.
 
 ![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/@Azure/artefacts/Screenshot.png?raw=true)
