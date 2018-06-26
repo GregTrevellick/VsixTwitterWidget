@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-dotnetcurry",
-    "version": "1.1.127",
+    "version": "1.1.131",
     "name": "@DotNetCurry",
     "publisher": "GregTrevellick",
     "targets": [

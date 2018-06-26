@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-codeproject",
-    "version": "1.1.127",
+    "version": "1.1.131",
     "name": "@CodeProject",
     "publisher": "GregTrevellick",
     "targets": [
