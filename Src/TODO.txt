@@ -7,11 +7,17 @@ DONE
 @vsts 
 
 MANY
+@ch9
+@Code
+@codeproject 
 @DailyDotNetTips 
 @dotnet 
 @Dotnetcurry 
+@dotnetfdn
+@dotnetkicks
 @mscloud 
 @newsycombinator 
+@nodejs
 @OctopusDeploy 
 @reddit_tech 
 @theregister 
@@ -21,17 +27,18 @@ MANY
 
 
 
-@ch9
-@Code
-@codeproject 
-@DevOpsAtMSFT weekly
-@dotnetfdn
-@dotnetkicks 
-@mslearning mixed
-@nodejs
-@nuget
-@stackoverflow
-@thedailywtf
+
+
+
+
+--@DevOpsAtMSFT weekly
+--@mslearning mixed
+--@nuget weekly
+--@thedailywtf slow
+--@stackoverflow weekly
+
+
+
 
 
 
