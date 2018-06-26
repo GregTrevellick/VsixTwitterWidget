@@ -1,41 +1,40 @@
 3x new screen shots of 330x330 layout
 
 
+DONE
+@azure
+@Dev_humor
+@vsts 
+
+MANY
+@DailyDotNetTips 
+@dotnet 
+@Dotnetcurry 
+@mscloud 
+@newsycombinator 
+@OctopusDeploy 
+@reddit_tech 
+@theregister 
+@visualstudio 
+@VSMdev 
+@xamarinhq 
 
 
-@azure many
-@DailyDotNetTips many
-@Dotnetcurry many
-@newsycombinator many
-@reddit_tech many
-@OctopusDeploy many
-@xamarinhq many
-@theregister many
 
 @ch9
 @Code
 @codeproject 
-@Dev_humor done
 @DevOpsAtMSFT weekly
-@dotnet many
 @dotnetfdn
 @dotnetkicks 
-@mscloud many
 @mslearning mixed
 @nodejs
 @nuget
 @stackoverflow
 @thedailywtf
-@visualstudio many
-@VSMdev many
-@vsts done
 
 
 
-FUTURE
-======
-
-badges
 
 1c x 1r data-width="160" data-height="160" 
 2c x 1r data-width="330" data-height="160"  
@@ -43,3 +42,5 @@ badges
 1c x 2r data-width="160" data-height="330"
 2c x 2r data-width="330" data-height="330"
 3c x 2r data-width="500" data-height="330"
+
+badges
