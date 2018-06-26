@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 		screen0.png = screen0.png
 		screen1.png = screen1.png
-		TODO.txt = TODO.txt
+		ztodo.txt = ztodo.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@DevHumor", "@DevHumor\@DevHumor.csproj", "{866CEA23-923B-46CD-B46A-BA20E63A7A89}"

@@ -1,31 +1,6 @@
 3x new screen shots of 330x330 layout
 
 
-MANY
-@azure
-@devhumor
-@vsts 
-@ch9
-@code
-@codeproject 
-@dailydotnettips
-@dotnet 
-@dotnetcurry 
-@dotnetfdn
-@dotnetkicks
-@mscloud 
-@newsycombinator
-@nodejs
-@octopusdeploy 
-@reddit_tech 
-@theregister 
-@visualstudio 
-@vsmdev 
-@xamarinhq 
-
-
-
-
 
 
 
@@ -34,9 +9,6 @@ MANY
 --@nuget weekly
 --@thedailywtf slow
 --@stackoverflow weekly
-
-
-
 
 
 
