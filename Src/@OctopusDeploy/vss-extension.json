@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-octopusdeploy",
-    "version": "1.1.126",
+    "version": "1.1.127",
     "name": "@OctopusDeploy",
     "publisher": "GregTrevellick",
     "targets": [
