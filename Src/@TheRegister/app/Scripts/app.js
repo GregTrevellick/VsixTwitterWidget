@@ -1,0 +1,1 @@
+var vssRegisterName = "VSSRegisterName_Tweet@Azure";

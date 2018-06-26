@@ -1,0 +1,107 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-extensions-tweets-reddittech",
+    "version": "1.1.125",
+    "name": "@RedditTech",
+    "publisher": "GregTrevellick",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Display @reddittech tweets in your project dashboard",
+    "icons": {
+        "default": "app/Images/DefaultIcon.png"
+    },
+    "categories": [
+        "Collaborate"
+    ],
+    "tags": [
+        "dashboard",
+        "tweet",
+        "twitter",
+        "reddittech",
+        "widget"
+    ],
+    "links": {
+        "home": {
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-reddittech"
+        },
+        "repository": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+        },
+        "issues": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        },
+        "support": {
+            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+        },
+        "getstarted": {
+            "uri": "https://gregtrevellick.github.io/More/"
+        },
+        "learn": {
+            "uri": "https://gregtrevellick.github.io/More/"
+        }
+    },
+    "screenshots": [
+        {
+            "path": "artefacts/Screenshot.png"
+        }
+    ],
+    "branding": {
+        "color": "rgb(32, 117, 184)",
+        "theme": "dark"
+    },
+    "contributions": [
+        {
+            "id": "VSSRegisterName_Tweet@RedditTech",
+            "type": "ms.vss-dashboards-web.widget",
+            "targets": [
+                "ms.vss-dashboards-web.widget-catalog"
+            ],
+
+            "properties": {
+                "name": "RedditTech Tweets",
+                "description": "Display @reddittech tweets in your project dashboard",
+                "catalogIconUrl:": "app/Images/DefaultIcon.png",
+                "previewImageUrl": "app/Images/DefaultIcon.png",
+                "uri": "app/dashboard-widget.html",
+                "supportedSizes": [
+                    {
+                        "rowSpan": 2,
+                        "columnSpan": 2
+                    }
+                ],
+
+                "supportedScopes": [ "project_team" ]
+            }
+        }
+    ],
+    "files": [
+        {
+            "path": "app/dashboard-widget.html",
+            "addressable": true
+        },
+        {
+            "path": "app/Images",
+            "addressable": true
+        },
+        {
+            "path": "app/Scripts",
+            "addressable": true
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "artefacts/Overview.md"
+        },
+
+        "license": {
+            "path": "artefacts/Licence.md"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+    }
+}
