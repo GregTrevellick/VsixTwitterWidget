@@ -15,9 +15,13 @@ See the [change log](CHANGELOG.md) for release history.
 
 [Contributions](https://github.com/GregTrevellick/VsixTwitterWidget/pulls) welcome.
 
+Examples:-
+
 ![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/screen0.png?raw=true)
 
 ![](https://github.com/GregTrevellick/VsixTwitterWidget/blob/master/Src/screen1.png?raw=true)
+
+[More available](https://marketplace.visualstudio.com/search?term=trevellick&target=VSTS&category=All%20categories&sortBy=Relevance).
 
 ## Credits
 
