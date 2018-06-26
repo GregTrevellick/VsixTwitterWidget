@@ -1,30 +1,26 @@
 3x new screen shots of 330x330 layout
 
 
-DONE
-@azure
-@Dev_humor
-@vsts 
-
-
-
 MANY
+@azure
+@devhumor
+@vsts 
 @ch9
-@Code
+@code
 @codeproject 
-@DailyDotNetTips
+@dailydotnettips
 @dotnet 
-@Dotnetcurry 
+@dotnetcurry 
 @dotnetfdn
 @dotnetkicks
 @mscloud 
 @newsycombinator
 @nodejs
-@OctopusDeploy 
+@octopusdeploy 
 @reddit_tech 
 @theregister 
 @visualstudio 
-@VSMdev 
+@vsmdev 
 @xamarinhq 
 
 
