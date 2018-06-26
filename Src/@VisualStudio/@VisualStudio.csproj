@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2BAD876C-1212-4F0E-A335-37BE39A18B9A}</ProjectGuid>
+    <ProjectGuid>{33E276DC-89AE-441F-B3D0-11BAA5543BA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VsixTwitterWidget</RootNamespace>
