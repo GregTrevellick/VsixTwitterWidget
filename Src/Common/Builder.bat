@@ -17,12 +17,12 @@ FOR %%G IN (azure,ch9,code,codeproject,dailydotnettips,dev_humor,dotnet,dotnetcu
 	attrib +R %1@%%G\artefacts\Licence.md
 
 	REM launch widgets in browsers
-	rem start %1@%%G\app\dashboard-widget.html
+	start %1@%%G\app\dashboard-widget.html
 
 	REM re-gen vsix's 
 	cd %1@%%G\
 	tfx extension create --rev-version --manifest-globs vss-extension.json
 
 	REM move vsix's to a single folder, to make easier to upload & purge
-	robocopy %1@%%G\ %2\Temp\ *.vsix /MOV	 
+	start robocopy %1@%%G\ %2\Temp\ *.vsix /MOV	 
 )
