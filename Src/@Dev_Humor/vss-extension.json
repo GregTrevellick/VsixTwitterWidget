@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-DevHumor",
-    "version": "1.1.140",
-    "name": "@DevHumor",
+    "id": "vsts-extensions-tweets-Dev_Humor",
+    "version": "1.1.141",
+    "name": "@Dev_Humor",
     "publisher": "GregTrevellick",
     "targets": [
         {
@@ -21,12 +21,12 @@
         "tweet",
         "twitter",
         "DevHumor",
-        "dev_humor",
+        "Dev_Humor",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-DevHumor"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-Dev_Humor"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"

@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ztodo.txt = ztodo.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Dev_Humor", "@Dev_Humor\@DevHumor.csproj", "{866CEA23-923B-46CD-B46A-BA20E63A7A89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Dev_Humor", "@Dev_Humor\@Dev_Humor.csproj", "{866CEA23-923B-46CD-B46A-BA20E63A7A89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{DEAE94BA-B4A3-4B24-A7C3-4AB322152BA4}"
 EndProject
