@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-VisualStudio2",
-    "version": "1.1.138",
-    "name": "@VisualStudio2",
+    "id": "vsts-extensions-tweets-VisualStudio",
+    "version": "1.1.139",
+    "name": "@VisualStudio",
     "publisher": "GregTrevellick",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @VisualStudio2 tweets in your project dashboard",
+    "description": "Display @VisualStudio tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "VisualStudio2",
+        "VisualStudio",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-VisualStudio2"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-VisualStudio"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -61,8 +61,8 @@
             ],
 
             "properties": {
-                "name": "VisualStudio2 Tweets",
-                "description": "Display @VisualStudio2 tweets in your project dashboard",
+                "name": "VisualStudio Tweets",
+                "description": "Display @VisualStudio tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
