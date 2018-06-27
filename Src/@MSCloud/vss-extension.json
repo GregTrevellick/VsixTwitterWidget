@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-MSCloud",
-    "version": "1.1.153",
+    "version": "1.1.158",
     "name": "@MSCloud",
     "publisher": "GregTrevellick",
     "targets": [
