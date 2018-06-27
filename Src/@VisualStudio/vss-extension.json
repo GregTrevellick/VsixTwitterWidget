@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-VisualStudio2",
-    "version": "1.1.136",
+    "version": "1.1.137",
     "name": "@VisualStudio2",
     "publisher": "GregTrevellick",
     "targets": [

@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ztodo.txt = ztodo.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@DevHumor", "@DevHumor\@DevHumor.csproj", "{866CEA23-923B-46CD-B46A-BA20E63A7A89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Dev_Humor", "@Dev_Humor\@DevHumor.csproj", "{866CEA23-923B-46CD-B46A-BA20E63A7A89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{DEAE94BA-B4A3-4B24-A7C3-4AB322152BA4}"
 EndProject
@@ -46,7 +46,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@NodeJS", "@NodeJS\@NodeJS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@OctopusDeploy", "@OctopusDeploy\@OctopusDeploy.csproj", "{4CC15B99-F523-4DC0-820A-60D6CDCF8F8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@Reddit_Tech", "@Reddit_Tech\@Reddit_Tech.csproj", "{E9CCBE91-FF80-43A5-BDA7-B4670F8B91B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@RedditTech", "@RedditTech\@RedditTech.csproj", "{E9CCBE91-FF80-43A5-BDA7-B4670F8B91B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "@TheRegister", "@TheRegister\@TheRegister.csproj", "{97BD7EC9-4FF6-4498-A8C3-B3C8EC0545BB}"
 EndProject

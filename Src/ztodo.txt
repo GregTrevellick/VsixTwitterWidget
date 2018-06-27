@@ -1,12 +1,11 @@
-ch9 vs channel9
-"Code" vs "VSCode"
-devhumor vs dev_humor
-dotnet vs dotnet2
-dotnetfdn vs dotnetfoundation
-newsycombinator vs hacker news
-reddittech vs reddit_tech
+remove undersocre from reddit_tech everywhere
 VisualStudio2 vs VisualStudio
-VSMDev vs vs magazine
+add underscore to devhumor everywhere
+
+
+
+
+
 
 
 
@@ -21,9 +20,6 @@ VSMDev vs vs magazine
 --@nuget weekly
 --@thedailywtf slow
 --@stackoverflow weekly
-
-
-
 
 1c x 1r data-width="160" data-height="160" 
 2c x 1r data-width="330" data-height="160"  
