@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-code",
+    "id": "vsts-extensions-tweets-Code",
     "version": "1.1.131",
     "name": "@Code",
     "publisher": "GregTrevellick",
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @code tweets in your project dashboard",
+    "description": "Display @Code tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "code",
+        "Code",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-code"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-Code"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -62,7 +62,7 @@
 
             "properties": {
                 "name": "Code Tweets",
-                "description": "Display @code tweets in your project dashboard",
+                "description": "Display @Code tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",

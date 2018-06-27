@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-dotnetkicks",
+    "id": "vsts-extensions-tweets-DotNetKicks",
     "version": "1.1.131",
     "name": "@DotNetKicks",
     "publisher": "GregTrevellick",
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @dotnetkicks tweets in your project dashboard",
+    "description": "Display @DotNetKicks tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "dotnetkicks",
+        "DotNetKicks",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-dotnetkicks"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-DotNetKicks"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -62,7 +62,7 @@
 
             "properties": {
                 "name": "DotNetKicks Tweets",
-                "description": "Display @dotnetkicks tweets in your project dashboard",
+                "description": "Display @DotNetKicks tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",

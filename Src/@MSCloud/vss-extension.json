@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-mscloud",
+    "id": "vsts-extensions-tweets-MSCloud",
     "version": "1.1.131",
     "name": "@MSCloud",
     "publisher": "GregTrevellick",
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @mscloud tweets in your project dashboard",
+    "description": "Display @MSCloud tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "mscloud",
+        "MSCloud",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-mscloud"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-MSCloud"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -62,7 +62,7 @@
 
             "properties": {
                 "name": "MSCloud Tweets",
-                "description": "Display @mscloud tweets in your project dashboard",
+                "description": "Display @MSCloud tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",

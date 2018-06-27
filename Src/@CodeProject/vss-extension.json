@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-codeproject",
+    "id": "vsts-extensions-tweets-CodeProject",
     "version": "1.1.131",
     "name": "@CodeProject",
     "publisher": "GregTrevellick",
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @codeproject tweets in your project dashboard",
+    "description": "Display @CodeProject tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "codeproject",
+        "CodeProject",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-codeproject"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-CodeProject"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -62,7 +62,7 @@
 
             "properties": {
                 "name": "CodeProject Tweets",
-                "description": "Display @codeproject tweets in your project dashboard",
+                "description": "Display @CodeProject tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",

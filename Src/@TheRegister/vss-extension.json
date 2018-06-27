@@ -1,6 +1,6 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-theregister",
+    "id": "vsts-extensions-tweets-TheRegister",
     "version": "1.1.131",
     "name": "@TheRegister",
     "publisher": "GregTrevellick",
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @theregister tweets in your project dashboard",
+    "description": "Display @TheRegister tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,12 @@
         "dashboard",
         "tweet",
         "twitter",
-        "theregister",
+        "TheRegister",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-theregister"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-TheRegister"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -62,7 +62,7 @@
 
             "properties": {
                 "name": "TheRegister Tweets",
-                "description": "Display @theregister tweets in your project dashboard",
+                "description": "Display @TheRegister tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",

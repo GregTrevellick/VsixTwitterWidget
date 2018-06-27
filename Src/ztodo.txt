@@ -1,3 +1,15 @@
+ch9 vs channel9
+"Code" vs "VSCode"
+devhumor vs dev_humor
+dotnet vs dotnet2
+dotnetfdn vs dotnetfoundation
+newsycombinator vs hacker news
+reddittech vs reddit_tech
+VisualStudio2 vs VisualStudio
+VSMDev vs vs magazine
+
+
+
 3x new screen shots of 330x330 layout
 
 
