@@ -1,9 +1,9 @@
+individual 3x new screen shots of 330x330 layout
 background colours
 dashboard edit description
 
 
 
-3x new screen shots of 330x330 layout
 
 --@DevOpsAtMSFT weekly
 --@mslearning mixed
