@@ -1,1 +1,1 @@
-var vssRegisterName = "VSSRegisterName_Tweet@DevHumor";
+var vssRegisterName = "VSSRegisterName_TweetAny";

@@ -1,3 +1,5 @@
+var vssRegisterName = "VSSRegisterName_TweetAny";
+
 //https://github.com/Microsoft/vss-web-extension-sdk
 
 VSS.init({
