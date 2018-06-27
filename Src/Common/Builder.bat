@@ -22,4 +22,7 @@ FOR %%G IN (azure,ch9,code,codeproject,dailydotnettips,dev_humor,dotnet,dotnetcu
 	REM re-gen vsix's 
 	cd %1@%%G\
 	tfx extension create --rev-version --manifest-globs vss-extension.json
+
+	REM move (not copy) vsix's to a single folder, to make easier to upload & purge
+	xcopy *.vsix %2\Temp\ /F /R /Y
 )
