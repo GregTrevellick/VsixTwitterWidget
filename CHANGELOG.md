@@ -10,6 +10,10 @@ Individual releases are tagged as such in GitHub.
 **2018-05-15**
 - [x] Initial release containing @vsts tweets
 
+## 1.1.169
+**2018-06-27**
+- [x] Added handful of twitter handles
+
 
 
 <!--
