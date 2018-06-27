@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-NewsYCombinator",
-    "version": "1.1.161",
+    "version": "1.1.166",
     "name": "@NewsYCombinator",
     "publisher": "GregTrevellick",
     "targets": [

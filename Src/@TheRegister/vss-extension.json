@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-TheRegister",
-    "version": "1.1.161",
+    "version": "1.1.166",
     "name": "@TheRegister",
     "publisher": "GregTrevellick",
     "targets": [
