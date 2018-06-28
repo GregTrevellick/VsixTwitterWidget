@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-NewsYCombinator",
-    "version": "1.1.169",
-    "name": "@NewsYCombinator",
+    "version": "1.1.174",
+    "name": "@HackerNews",
     "publisher": "GregTrevellick",
     "targets": [
         {
@@ -20,6 +20,7 @@
         "dashboard",
         "tweet",
         "twitter",
+        "HackerNews",
         "NewsYCombinator",
         "widget"
     ],

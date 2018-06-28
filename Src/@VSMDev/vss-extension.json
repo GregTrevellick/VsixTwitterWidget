@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-VSMDev",
-    "version": "1.1.169",
-    "name": "@VSMDev",
+    "version": "1.1.172",
+    "name": "@VisualStudioMagazine",
     "publisher": "GregTrevellick",
     "targets": [
         {

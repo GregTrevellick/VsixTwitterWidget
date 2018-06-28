@@ -14,6 +14,9 @@ Individual releases are tagged as such in GitHub.
 **2018-06-27**
 - [x] Added handful of twitter handles
 
+## 1.1.176
+**2018-06-28**
+- [x] Added Russia 2018 world cup
 
 
 <!--

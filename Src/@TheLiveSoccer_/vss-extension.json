@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-Azure",
-    "version": "1.1.172",
-    "name": "@Azure",
+    "id": "vsts-extensions-tweets-TheLiveSoccer",
+    "version": "1.1.175",
+    "name": "@Russia2018",
     "publisher": "GregTrevellick",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @Azure tweets in your project dashboard",
+    "description": "Display @TheLiveSoccer_ tweets in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -20,12 +20,18 @@
         "dashboard",
         "tweet",
         "twitter",
-        "Azure",
+        "Football",
+        "Russia",
+        "Russia2018",
+        "Russia 2018",
+        "Soccer",
+        "TheLiveSoccer_",
+        "TheLiveSoccer",
         "widget"
     ],
     "links": {
         "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-Azure"
+            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-TheLiveSoccer_"
         },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
@@ -49,7 +55,7 @@
         }
     ],
     "branding": {
-        "color": "rgb(32, 117, 184)",
+        "color": "rgb(241, 181, 67)",
         "theme": "dark"
     },
     "contributions": [
@@ -61,8 +67,8 @@
             ],
 
             "properties": {
-                "name": "Azure Tweets",
-                "description": "Display @Azure tweets in your project dashboard",
+                "name": "Russia World Cup 2018 Tweets",
+                "description": "Display @TheLiveSoccer_ tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
                 "uri": "app/dashboard-widget.html",
@@ -105,4 +111,5 @@
         "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
     },
     "public": true
+
 }
