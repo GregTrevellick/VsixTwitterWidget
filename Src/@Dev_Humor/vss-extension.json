@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-Dev-Humor",
-    "version": "1.1.172",
+    "version": "1.1.173",
     "name": "@Dev_Humor",
     "publisher": "GregTrevellick",
     "targets": [
