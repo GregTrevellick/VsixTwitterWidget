@@ -1,5 +1,23 @@
+PUBLIC
+daily dot net tips grey
+dnf purple
+vsm grey
+vs code light blue
+ynews orange
+octopus deploy different shade blue
+
+PRIVATE
+code project green
+dotnet blue
+dnc deep blue
+dnk light blue
+node black
+reddit light blue
+the register red
+xamarin navy blue
+
+
 individual 3x new screen shots of 330x330 layout
-background colours
 dashboard edit description
 
 
