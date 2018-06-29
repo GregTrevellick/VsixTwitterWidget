@@ -1,20 +1,20 @@
 PUBLIC
-daily dot net tips grey
-dnf purple
-vsm grey
-vs code light blue
-ynews orange
-octopus deploy different shade blue
+daily dot net tips grey rgb(153,153,153)
+dnf purple rgb(149,24,181)
+vsm grey rgb(153,153,153)
+vs code light blue rgb(43,184,235)
+ynews orange rgb(240,98,0)
+octopus deploy different shade blue rgb(47,147,223)
 
 PRIVATE
-code project green
-dotnet blue
-dnc deep blue
-dnk light blue
+code project green rgb(55,170,28)
+dotnet blue rgb(113,20,231)
+dnc deep blue rgb(24,72,144)
+dnk light blue rgb(29,161,242)
 node black
-reddit light blue
-the register red
-xamarin navy blue
+reddit light blue rgb(29,161,242)
+the register red rgb(255,0,0)
+xamarin navy blue rgb(44,62,88)
 
 
 individual 3x new screen shots of 330x330 layout
