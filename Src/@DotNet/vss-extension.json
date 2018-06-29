@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-DotNet",
-    "version": "1.1.173",
+    "version": "1.1.174",
     "name": "@DotNet",
     "publisher": "GregTrevellick",
     "targets": [
@@ -49,7 +49,7 @@
         }
     ],
     "branding": {
-        "color": "rgb(32, 117, 184)",
+        "color": "rgb(113,20,231)",
         "theme": "dark"
     },
     "contributions": [

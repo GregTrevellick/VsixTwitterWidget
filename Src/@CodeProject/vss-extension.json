@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-CodeProject",
-    "version": "1.1.173",
+    "version": "1.1.174",
     "name": "@CodeProject",
     "publisher": "GregTrevellick",
     "targets": [
@@ -49,7 +49,7 @@
         }
     ],
     "branding": {
-        "color": "rgb(32, 117, 184)",
+        "color": "rgb(55,170,28)",
         "theme": "dark"
     },
     "contributions": [
