@@ -1,4 +1,4 @@
---individual 3x new screen shots of 330x330 layout
+new screeenshot, sync version nbrs, republish all
 
 1c x 1r data-width="160" data-height="160" 
 2c x 1r data-width="330" data-height="160"  

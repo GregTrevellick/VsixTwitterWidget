@@ -59,6 +59,7 @@
     <None Include="app\Scripts\styling.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="artefacts\Screenshot.png" />
     <None Include="app\Scripts\app.js" />
     <Content Include="app\Scripts\common.min.js">
       <DependentUpon>common.js</DependentUpon>
