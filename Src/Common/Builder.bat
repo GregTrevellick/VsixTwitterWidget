@@ -28,5 +28,6 @@ FOR %%G IN (azure,ch9,code,codeproject,dailydotnettips,dev_humor,dotnet,dotnetcu
 	tfx extension create --rev-version --manifest-globs vss-extension.json
 
 	REM move vsix's to a single folder, to make easier to upload & purge
+	start robocopy %2\Temp\ %2\Temp\Archive\ *.vsix /MOV	 
 	start robocopy %1@%%G\ %2\Temp\ *.vsix /MOV	 
 )
