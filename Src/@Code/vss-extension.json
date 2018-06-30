@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "Code Tweets",
+                "name": "Visual Studio Code Tweets",
                 "description": "Display @Code tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

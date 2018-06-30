@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "DailyDotNetTips Tweets",
+                "name": "Daily Dot Net Tips Tweets",
                 "description": "Display @DailyDotNetTips tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

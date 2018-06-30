@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "DotNetKicks Tweets",
+                "name": "Dot Net Kicks Tweets",
                 "description": "Display @DotNetKicks tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

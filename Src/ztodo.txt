@@ -1,14 +1,4 @@
-individual 3x new screen shots of 330x330 layout
-dashboard edit description
-
-
-
-
---@DevOpsAtMSFT weekly
---@mslearning mixed
---@nuget weekly
---@thedailywtf slow
---@stackoverflow weekly
+--individual 3x new screen shots of 330x330 layout
 
 1c x 1r data-width="160" data-height="160" 
 2c x 1r data-width="330" data-height="160"  
@@ -31,3 +21,8 @@ Commit strip
 CSS tricks
 @aspnet
 Windows blog
+--@DevOpsAtMSFT weekly
+--@mslearning mixed
+--@nuget weekly
+--@thedailywtf slow
+--@stackoverflow weekly

@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "DotNetCurry Tweets",
+                "name": "Dot Net Curry Tweets",
                 "description": "Display @DotNetCurry tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

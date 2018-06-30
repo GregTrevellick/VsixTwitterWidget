@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "VSMDev Tweets",
+                "name": "Visual Studio Magazine Tweets",
                 "description": "Display @VSMDev tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "XamarinHQ Tweets",
+                "name": "Xamarin Tweets",
                 "description": "Display @XamarinHQ tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

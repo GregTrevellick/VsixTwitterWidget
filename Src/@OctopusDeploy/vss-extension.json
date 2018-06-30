@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "OctopusDeploy Tweets",
+                "name": "Octopus Deploy Tweets",
                 "description": "Display @OctopusDeploy tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

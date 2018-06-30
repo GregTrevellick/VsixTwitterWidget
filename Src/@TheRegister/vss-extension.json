@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "TheRegister Tweets",
+                "name": "The Register Tweets",
                 "description": "Display @TheRegister tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",

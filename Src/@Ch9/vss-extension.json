@@ -61,7 +61,7 @@
             ],
 
             "properties": {
-                "name": "Ch9 Tweets",
+                "name": "Channel 9 Tweets",
                 "description": "Display @Ch9 tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
