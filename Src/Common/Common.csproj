@@ -70,7 +70,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>C:\Users\gtrev\Source\Repos\VsixTwitterWidget\Src\Common\Builder.bat $(SolutionDir) $(ProjectDir)</PreBuildEvent>
+    <PreBuildEvent>$(ProjectDir)\Builder.bat $(SolutionDir) $(ProjectDir)</PreBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets" Condition="Exists('..\packages\BuildBundlerMinifier.2.8.391\build\BuildBundlerMinifier.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

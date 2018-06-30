@@ -21,7 +21,7 @@ FOR %%G IN (azure,ch9,code,codeproject,dailydotnettips,dev_humor,dotnet,dotnetcu
 	attrib +R %1@%%G\artefacts\Licence.md
 
 	REM launch widgets in browsers
-	rem            start %1@%%G\app\dashboard-widget.html
+	start %1@%%G\app\dashboard-widget.html
 
 	REM re-gen vsix's 
 	cd %1@%%G\
