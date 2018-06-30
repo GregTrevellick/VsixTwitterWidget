@@ -1,10 +1,3 @@
-PRIVATE
-node black
-reddit light blue rgb(29,161,242)
-the register red rgb(255,0,0)
-xamarin navy blue rgb(44,62,88)
-
-
 individual 3x new screen shots of 330x330 layout
 dashboard edit description
 

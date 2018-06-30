@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-Ch9",
-    "version": "1.1.174",
+    "version": "1.1.175",
     "name": "@Channel9",
     "publisher": "GregTrevellick",
     "targets": [
