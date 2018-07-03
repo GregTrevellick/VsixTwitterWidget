@@ -22,10 +22,10 @@ Windows blog
 --@nuget weekly
 --@thedailywtf slow
 --@stackoverflow weekly
-
-
-
-
+atlassian
+github
+dotcover
+jetbrains
 
 
 
