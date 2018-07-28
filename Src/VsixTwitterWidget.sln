@@ -8,9 +8,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD534310-6FE1-4484-A2C8-DD9A7B712E92}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\.travis.yml = ..\.travis.yml
+		..\_config.yml = ..\_config.yml
+		..\appveyor.yml = ..\appveyor.yml
 		..\CHANGELOG.md = ..\CHANGELOG.md
 		..\LICENSE.md = ..\LICENSE.md
 		..\README.md = ..\README.md
+		..\renovate.json = ..\renovate.json
 		screen0.png = screen0.png
 		screen1.png = screen1.png
 		ztodo.txt = ztodo.txt
