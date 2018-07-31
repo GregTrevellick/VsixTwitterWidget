@@ -1,5 +1,8 @@
 # Vsix Twitter Widget
 
+<!--BadgesSTART-->
+<!--BadgesEND-->
+
 [![Licence](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 
 [GitHubRepoURL]: https://github.com/GregTrevellick/VsixTwitterWidget
