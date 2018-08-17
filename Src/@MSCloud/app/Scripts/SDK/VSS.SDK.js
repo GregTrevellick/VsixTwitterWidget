@@ -184,7 +184,7 @@ var XDM;
         return XDMObjectRegistry;
     }());
     XDM.XDMObjectRegistry = XDMObjectRegistry;
-    ;
+    
     /**
     * The registry of global XDM handlers
     */
