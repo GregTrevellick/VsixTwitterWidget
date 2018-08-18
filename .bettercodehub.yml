@@ -1,0 +1,3 @@
+exclude:
+- .*/Scripts/SDK/VSS\.SDK\.js
+- .*/VSS\.SDK\.js
