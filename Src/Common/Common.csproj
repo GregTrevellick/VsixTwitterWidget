@@ -45,6 +45,7 @@
     <None Include="App.config" />
     <None Include="artefacts\Licence.md" />
     <None Include="Builder.bat" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app\Scripts\common.js" />
