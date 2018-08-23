@@ -35,7 +35,7 @@
     <None Include="app\dashboard-widget.html" />
     <None Include="app\Images\DefaultIcon.png" />
     <None Include="app\Scripts\SDK\VSS.SDK.min.js" />
-    <None Include="app\Scripts\SDK\VSS.SDK.js" />    <None Include="artefacts\*.*" />
+    <None Include="app\Scripts\SDK\VSS.SDK.js"><SonarQubeExclude>true</SonarQubeExclude></None>    <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
