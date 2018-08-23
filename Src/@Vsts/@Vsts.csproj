@@ -36,12 +36,11 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="Properties\AssemblyInfo.cs" />
-    <None Include="app\*.*" />
+    <None Include="app\dashboard-widget.html" />
     <None Include="app\Images\DefaultIcon.png" />
     <None Include="app\Scripts\common.js" />
-    <None Include="app\*\*\*.*" />
-	<None Include="app\Scripts\SDK\VSS.SDK.js"><SonarQubeExclude>true</SonarQubeExclude></None>
-	<None Include="artefacts\*.*" />
+    <None Include="app\Scripts\SDK\VSS.SDK.min.js" />
+    <None Include="artefacts\*.*" />
     <None Include="vss-extension.json" />
   </ItemGroup>
   <ItemGroup>
@@ -54,8 +53,10 @@
     <Content Include="app\Scripts\common.min.js">
       <DependentUpon>common.js</DependentUpon>
     </Content>
-	  <Content Include="app\Scripts\SDK\VSS.SDK.js"><SonarQubeExclude>true</SonarQubeExclude></Content>
-	  <Content Include="app\Scripts\styling.min.js">
+    <Content Include="app\Scripts\SDK\VSS.SDK.js">
+      <SonarQubeExclude>true</SonarQubeExclude>
+    </Content>
+    <Content Include="app\Scripts\styling.min.js">
       <DependentUpon>styling.js</DependentUpon>
     </Content>
   </ItemGroup>
