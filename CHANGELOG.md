@@ -18,6 +18,9 @@ Individual releases are tagged as such in GitHub.
 **2018-06-28**
 - [x] Added Russia 2018 world cup
 
+## 1.1.185
+**2018-09-11**
+- [x] Added @AzureDevOps
 
 <!--
 https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html

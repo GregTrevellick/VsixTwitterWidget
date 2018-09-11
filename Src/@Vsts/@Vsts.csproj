@@ -50,6 +50,7 @@
     <None Include="app\Scripts\app.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app\Images\DefaultIcon_V1.png" />
     <Content Include="app\Scripts\common.min.js">
       <DependentUpon>common.js</DependentUpon>
     </Content>

@@ -1,11 +1,3 @@
-1st jan - happy new year & rate me
-
-overview include links to more tweets
-
-new screeenshot, sync version nbrs, republish all
-
-badges
-
 Bathroom commits
 Sky news
 Man utd
@@ -27,39 +19,3 @@ github
 dotcover
 jetbrains
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1c x 1r data-width="160" data-height="160" 
-2c x 1r data-width="330" data-height="160"  
-3c x 1r data-width="500" data-height="160"
-1c x 2r data-width="160" data-height="330"
-2c x 2r data-width="330" data-height="330"
-3c x 2r data-width="500" data-height="330"

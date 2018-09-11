@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-azuredevops",
-    "version": "1.1.180",
+    "id": "vsts-extensions-tweets-AzureDevOps",
+    "version": "1.1.185",
     "name": "@AzureDevOps",
     "publisher": "GregTrevellick",
     "targets": [
@@ -25,7 +25,7 @@
     ],
     "links": {
       "home": {
-        "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-azuredevops"
+        "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-AzureDevOps"
       },
         "repository": {
             "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
