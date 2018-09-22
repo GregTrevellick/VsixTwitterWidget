@@ -22,6 +22,10 @@ Individual releases are tagged as such in GitHub.
 **2018-09-11**
 - [x] Added @AzureDevOps
 
+## 1.1.187
+**2018-09-22**
+- [x] Added Live Soccer tweets
+
 <!--
 https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/overview.html
 https://github.com/areve/IframeDashboardWidget
