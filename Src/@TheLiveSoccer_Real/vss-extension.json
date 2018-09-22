@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-TheLiveSoccer",
-    "version": "1.1.182",
-    "name": "@Russia2018",
+    "version": "1.1.184",
+    "name": "LiveSoccer",
     "publisher": "GregTrevellick",
     "targets": [
         {
@@ -21,9 +21,6 @@
         "tweet",
         "twitter",
         "Football",
-        "Russia",
-        "Russia2018",
-        "Russia 2018",
         "Soccer",
         "TheLiveSoccer_",
         "TheLiveSoccer",
@@ -67,7 +64,7 @@
             ],
 
             "properties": {
-                "name": "Russia World Cup 2018 Tweets",
+                "name": "@TheLiveSoccer_ tweets - the centre of all football news, views, transfers & more.",
                 "description": "Display @TheLiveSoccer_ tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
