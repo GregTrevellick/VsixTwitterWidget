@@ -6,7 +6,8 @@ rem  /R    Overwrite read-only files.
 echo "SolutionDir" %1
 echo "ProjectDir" %2
 
-    FOR %%G IN (azuredevops,thelivesoccer_,thelivesoccer_real) DO (
+    FOR %%G IN (thelivesoccer_real) DO (
+rem FOR %%G IN (azuredevops,thelivesoccer_,thelivesoccer_real) DO (
 rem FOR %%G IN (azure,azuredevops,ch9,code,codeproject,dailydotnettips,dev_humor,dotnet,dotnetcurry,dotnetfdn,dotnetkicks,mscloud,newsycombinator,nodejs,octopusdeploy,reddittech,thelivesoccer_,thelivesoccer_real,theregister,visualstudio,vsmdev,vsts,xamarinhq) DO (
 
 	REM copy the static files to each of the projects. The manifest json file only allows paths that are children of its own directory, hence can't specify the common files themselves in the manifest json files. Also, shortcut file links won't do the trick either.

@@ -1,15 +1,15 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extensions-tweets-TheLiveSoccer",
-    "version": "1.1.184",
-    "name": "LiveSoccer",
+    "id": "vsts-extensions-tweets-LiveSoccer",
+    "version": "1.1.193",
+    "name": "Live Soccer",
     "publisher": "GregTrevellick",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Display @TheLiveSoccer_ tweets in your project dashboard",
+    "description": "All the latest football news, views, transfers & more in your project dashboard",
     "icons": {
         "default": "app/Images/DefaultIcon.png"
     },
@@ -64,7 +64,7 @@
             ],
 
             "properties": {
-                "name": "@TheLiveSoccer_ tweets - the centre of all football news, views, transfers & more.",
+                "name": "Football news, views, transfers & more.",
                 "description": "Display @TheLiveSoccer_ tweets in your project dashboard",
                 "catalogIconUrl:": "app/Images/DefaultIcon.png",
                 "previewImageUrl": "app/Images/DefaultIcon.png",
