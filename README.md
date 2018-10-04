@@ -9,6 +9,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VsixTwitterWidget/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VsixTwitterWidget)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/VsixTwitterWidget.svg)](https://github.com/GregTrevellick/VsixTwitterWidget)
 [![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/VsixTwitterWidget.svg)](https://github.com/GregTrevellick/VsixTwitterWidget)
+[![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/VsixTwitterWidget.svg)](https://github.com/GregTrevellick/VsixTwitterWidget/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/VsixTwitterWidget.svg)](https://github.com/GregTrevellick/VsixTwitterWidget/pulls)
 [![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=VsixTwitterWidget&metric=alert_status)](https://sonarcloud.io/dashboard?id=VsixTwitterWidget)
 [![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=VsixTwitterWidget&metric=bugs)](https://sonarcloud.io/component_measures?id=VsixTwitterWidget&metric=bugs)
