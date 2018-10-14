@@ -1,0 +1,5 @@
+inspecode:
+  experimental:
+    # input: <pattern>
+    # ignore: <pattern>
+    ignore: Src/*/app/Scripts/SDK/VSS.SDK.js
