@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-AzureDevOps",
-    "version": "1.1.193",
+    "version": "1.1.194",
     "name": "@AzureDevOps",
     "publisher": "GregTrevellick",
     "targets": [

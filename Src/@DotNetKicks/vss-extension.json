@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-DotNetKicks",
-    "version": "1.1.186",
+    "version": "1.1.187",
     "name": "@DotNetKicks",
     "publisher": "GregTrevellick",
     "targets": [

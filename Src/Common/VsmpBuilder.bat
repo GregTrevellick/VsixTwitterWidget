@@ -2,11 +2,16 @@ rem vsmp_pat not used
 rem no need to run this bat file in cmd prompt
 rem just build the sln and upload the vsixes that appear in \Temp folder 
 
+rem "@VisualStudioCode" = GregTrevellick.vsts-extensions-tweets-Code-1.1.187.vsix
+rem "@HackerNews" = GregTrevellick.vsts-extensions-tweets-NewsYCombinator-1.1.189.vsix
+rem "@Russia2018" = @TheLiveSoccer_.csproj = GregTrevellick.vsts-extensions-tweets-TheLiveSoccer-1.1.193.vsix
+rem "Live Soccer" = @TheLiveSoccer_Real.csproj = GregTrevellick.vsts-extensions-tweets-LiveSoccer-1.1.201.vsix
+
 rem  /S    Copy folders and subfolders
 rem  /Y    Suppress prompt to confirm overwriting a file.
 rem  /F    Display full source and destination file names while copying.
 rem  /R    Overwrite read-only files.
-
+ 
 echo "SolutionDir" %1
 echo "ProjectDir" %2
 
@@ -26,12 +31,10 @@ FOR %%G IN (azure,azuredevops,ch9,code,codeproject,dailydotnettips,dev_humor,dot
 	start %1@%%G\app\dashboard-widget.html
 
 	REM re-gen vsix's 
-	rem vsmp_pat not used
 	cd %1@%%G\
 	tfx extension create --rev-version --manifest-globs vss-extension.json
 
 	REM move vsix's to a single folder, to make easier to upload & purge
-	rem manually upload the vsix into vsmp edit screen
 	start robocopy %2\Temp\ %2\Temp\Archive\ *.vsix /MOV	 
 	start robocopy %1@%%G\ %2\Temp\ *.vsix /MOV	 
 )

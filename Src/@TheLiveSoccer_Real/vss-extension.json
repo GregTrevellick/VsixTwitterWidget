@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-LiveSoccer",
-    "version": "1.1.200",
+    "version": "1.1.201",
     "name": "Live Soccer",
     "publisher": "GregTrevellick",
     "targets": [
