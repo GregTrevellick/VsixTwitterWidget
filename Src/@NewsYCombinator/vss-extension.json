@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-NewsYCombinator",
-    "version": "1.1.181",
+    "version": "1.1.185",
     "name": "@HackerNews",
     "publisher": "GregTrevellick",
     "targets": [
@@ -24,26 +24,29 @@
         "NewsYCombinator",
         "widget"
     ],
-    "links": {
-        "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-NewsYCombinator"
-        },
-        "repository": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-        },
-        "issues": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "support": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "getstarted": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        },
-        "learn": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        }
+  "links": {
+    "home": {
+      "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-NewsYCombinator"
     },
+    "repository": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+    },
+    "issues": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "support": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "getstarted": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "learn": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "privacypolicy": {
+      "uri": "https://gregtrevellick.github.io/Azure-DevOps-Widget-Privacy-Policy/"
+    }
+  },
     "screenshots": [
         {
             "path": "artefacts/Screenshot.png"

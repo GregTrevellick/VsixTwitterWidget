@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-TheLiveSoccer",
-    "version": "1.1.185",
+    "version": "1.1.189",
     "name": "@Russia2018",
     "publisher": "GregTrevellick",
     "targets": [
@@ -29,26 +29,29 @@
         "TheLiveSoccer",
         "widget"
     ],
-    "links": {
-        "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-TheLiveSoccer_"
-        },
-        "repository": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-        },
-        "issues": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "support": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "getstarted": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        },
-        "learn": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        }
+  "links": {
+    "home": {
+      "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-TheLiveSoccer_"
     },
+    "repository": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+    },
+    "issues": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "support": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "getstarted": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "learn": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "privacypolicy": {
+      "uri": "https://gregtrevellick.github.io/Azure-DevOps-Widget-Privacy-Policy/"
+    }
+  },
     "screenshots": [
         {
             "path": "artefacts/Screenshot.png"

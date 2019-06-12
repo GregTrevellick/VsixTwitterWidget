@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-extensions-tweets-Dev-Humor",
-    "version": "1.1.179",
+    "version": "1.1.183",
     "name": "@Dev_Humor",
     "publisher": "GregTrevellick",
     "targets": [
@@ -24,26 +24,29 @@
         "Dev_Humor",
         "widget"
     ],
-    "links": {
-        "home": {
-            "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-Dev_Humor"
-        },
-        "repository": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
-        },
-        "issues": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "support": {
-            "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
-        },
-        "getstarted": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        },
-        "learn": {
-            "uri": "https://gregtrevellick.github.io/More/"
-        }
+  "links": {
+    "home": {
+      "uri": "https://marketplace.visualstudio.com/items?itemName=GregTrevellick.vsts-extensions-tweets-Dev_Humor"
     },
+    "repository": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget"
+    },
+    "issues": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "support": {
+      "uri": "https://github.com/GregTrevellick/VsixTwitterWidget/issues"
+    },
+    "getstarted": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "learn": {
+      "uri": "https://gregtrevellick.github.io/More/"
+    },
+    "privacypolicy": {
+      "uri": "https://gregtrevellick.github.io/Azure-DevOps-Widget-Privacy-Policy/"
+    }
+  },
     "screenshots": [
         {
             "path": "artefacts/Screenshot.png"
