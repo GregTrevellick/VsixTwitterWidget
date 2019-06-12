@@ -15,8 +15,8 @@ FOR %%G IN (azure,azuredevops,ch9,code,codeproject,dailydotnettips,dev_humor,dot
 
 	REM copy the static files to each of the projects. The manifest json file only allows paths that are children of its own directory, hence can't specify the common files themselves in the manifest json files. Also, shortcut file links won't do the trick either.
 	xcopy %2app\Scripts\* %1@%%G\app\Scripts\ /F /R /Y /S
-	xcopy %2artefacts\Screenshot.png %1@%%G\artefacts\Screenshot.png /F /R /Y /i
-    xcopy %2artefacts\Licence.md %1@%%G\artefacts\Licence.md /F /R /Y /i
+	xcopy %2artefacts\Screenshot.png %1@%%G\artefacts\Screenshot.png /F /R /Y 
+    xcopy %2artefacts\Licence.md %1@%%G\artefacts\Licence.md /F /R /Y 
 
 	REM make the new files read-only
 	attrib +R %1@%%G\app\Scripts\*
